@@ -1,0 +1,58 @@
+{
+  "status": "dikunci",
+  "dikunci_pada": "2026-11-27 18:28",
+  "dikunci_oleh": "Fahmi",
+  "keluarga_1_piksel": {
+    "Fire": {
+      "d_dark": 1,
+      "d_exg_v4": -1,
+      "d_bright_raw_v4": -1
+    },
+    "Volcano": {
+      "delta_edge": -1,
+      "d_entropy": -1,
+      "d_dark": 1
+    },
+    "Tsunami": {
+      "water_rel_pre": 1,
+      "d_water": 1
+    },
+    "Hurricane": {
+      "d_exg_v4": -1,
+      "d_water": 1
+    },
+    "Earthquake": {
+      "edge_pre": 1,
+      "delta_edge": 1
+    },
+    "Explosion": {
+      "edge_pre": 1
+    }
+  },
+  "keluarga_2_patch": {
+    "Fire": {
+      "frac_chg_p15": 1
+    },
+    "Volcano": {
+      "frac_chg_p15": 1,
+      "top10_share": -1
+    },
+    "Tsunami": {
+      "com_shift": 1
+    },
+    "Hurricane": {
+      "top10_share": -1,
+      "frac_chg_p15": 1
+    },
+    "Earthquake": {
+      "top10_share": -1
+    },
+    "Explosion": {
+      "top10_share": 1,
+      "radial_decay": 1
+    }
+  },
+  "skor": "rata-rata (tanda × z) per keluarga, NaN dilewati; skor akhir = rata-rata dua keluarga",
+  "aturan_nan_keluarga_1": "per cluster: jika skor keluarga 1 NaN untuk salah satu kelas, semua kelas di cluster itu dinilai dari keluarga 2 saja (dicatat di event_names.csv kolom hanya_keluarga_2)",
+  "margin_lemah": 0.5
+}
