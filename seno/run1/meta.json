@@ -1,0 +1,58 @@
+{
+  "versi": "run1",
+  "oleh": "Seno",
+  "tanggal": "2026-11-27 18:55",
+  "input": {
+    "fitur": "hafizh/v2",
+    "label": "fahmi/v1",
+    "rules": {
+      "status": "dikunci",
+      "dikunci_pada": "2026-11-27 18:28"
+    }
+  },
+  "pengaturan": {
+    "sumber_label": "pusat_semua_cluster",
+    "core_frac": 0.5,
+    "b_pca": 64,
+    "b_round": 4,
+    "ls_kernel": "knn",
+    "ls_knn": 15,
+    "ls_alpha": 0.2,
+    "fitur_blok": [
+      "color_pre",
+      "color_post"
+    ],
+    "c_pca": 128,
+    "lr_C": 1.0,
+    "class_weight": "balanced",
+    "seed": 42
+  },
+  "n_seed": 1588,
+  "cv_vs_label_latih": {
+    "acc": 0.8409,
+    "macro_f1": 0.7984
+  },
+  "hasil": {
+    "kelas_terprediksi": 6,
+    "sama_label_latih": 0.933,
+    "sama_nama_cluster": 0.8975
+  },
+  "distribusi_prediksi": {
+    "Earthquake": 144,
+    "Explosion": 905,
+    "Fire": 427,
+    "Hurricane": 98,
+    "Tsunami": 1419,
+    "Volcano": 187
+  },
+  "versi_lib": {
+    "python": "3.13.18",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "pyarrow": "26.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "catatan": "pusat_semua_cluster, LogReg balanced, fitur color_pre+color_post"
+}

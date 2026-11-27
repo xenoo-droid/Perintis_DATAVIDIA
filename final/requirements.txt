@@ -1,0 +1,11 @@
+# DRAF: ditimpa otomatis oleh 01_model.ipynb saat MODE_UJI = False
+numpy
+pandas
+pyarrow
+scipy
+scikit-learn==1.9.1
+joblib
+torch
+transformers
+timm
+opencv-python
