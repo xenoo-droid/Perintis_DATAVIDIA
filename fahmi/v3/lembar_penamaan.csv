@@ -1,41 +1,41 @@
 ﻿event_id,n,montase,montase_norm,penilai_1,kelas_1,yakin_1,alasan_1,catatan_1,penilai_2,kelas_2,yakin_2,alasan_2,catatan_2,kelas_final,sumber_final,catatan
-0,50,montase/cluster_00.jpg,montase/cluster_00_norm.jpg,Hafizh,,,,,,,,,,,,belum diisi
-1,36,montase/cluster_01.jpg,montase/cluster_01_norm.jpg,Hafizh,,,,,Seno,,,,,,,belum diisi
-2,46,montase/cluster_02.jpg,montase/cluster_02_norm.jpg,Seno,,,,,,,,,,,,belum diisi
-3,36,montase/cluster_03.jpg,montase/cluster_03_norm.jpg,Fahmi,,,,,,,,,,,,belum diisi
-4,34,montase/cluster_04.jpg,montase/cluster_04_norm.jpg,Hafizh,,,,,,,,,,,,belum diisi
-5,39,montase/cluster_05.jpg,montase/cluster_05_norm.jpg,Hafizh,,,,,Seno,,,,,,,belum diisi
-6,50,montase/cluster_06.jpg,montase/cluster_06_norm.jpg,Hafizh,,,,,Fahmi,,,,,,,belum diisi
-7,63,montase/cluster_07.jpg,montase/cluster_07_norm.jpg,Hafizh,,,,,,,,,,,,belum diisi
-8,35,montase/cluster_08.jpg,montase/cluster_08_norm.jpg,Fahmi,,,,,,,,,,,,belum diisi
-9,47,montase/cluster_09.jpg,montase/cluster_09_norm.jpg,Seno,,,,,,,,,,,,belum diisi
-10,66,montase/cluster_10.jpg,montase/cluster_10_norm.jpg,Seno,,,,,,,,,,,,belum diisi
-11,64,montase/cluster_11.jpg,montase/cluster_11_norm.jpg,Fahmi,,,,,,,,,,,,belum diisi
-12,56,montase/cluster_12.jpg,montase/cluster_12_norm.jpg,Seno,,,,,Fahmi,,,,,,,belum diisi
-13,49,montase/cluster_13.jpg,montase/cluster_13_norm.jpg,Seno,,,,,,,,,,,,belum diisi
-14,72,montase/cluster_14.jpg,montase/cluster_14_norm.jpg,Fahmi,,,,,,,,,,,,belum diisi
-15,83,montase/cluster_15.jpg,montase/cluster_15_norm.jpg,Seno,,,,,Hafizh,,,,,,,belum diisi
-16,69,montase/cluster_16.jpg,montase/cluster_16_norm.jpg,Fahmi,,,,,,,,,,,,belum diisi
-17,51,montase/cluster_17.jpg,montase/cluster_17_norm.jpg,Fahmi,,,,,Hafizh,,,,,,,belum diisi
-18,85,montase/cluster_18.jpg,montase/cluster_18_norm.jpg,Fahmi,,,,,,,,,,,,belum diisi
-19,74,montase/cluster_19.jpg,montase/cluster_19_norm.jpg,Seno,,,,,,,,,,,,belum diisi
-20,60,montase/cluster_20.jpg,montase/cluster_20_norm.jpg,Seno,,,,,Fahmi,,,,,,,belum diisi
-21,86,montase/cluster_21.jpg,montase/cluster_21_norm.jpg,Hafizh,,,,,,,,,,,,belum diisi
-22,67,montase/cluster_22.jpg,montase/cluster_22_norm.jpg,Hafizh,,,,,,,,,,,,belum diisi
-23,101,montase/cluster_23.jpg,montase/cluster_23_norm.jpg,Hafizh,,,,,Seno,,,,,,,belum diisi
-24,96,montase/cluster_24.jpg,montase/cluster_24_norm.jpg,Hafizh,,,,,,,,,,,,belum diisi
-25,67,montase/cluster_25.jpg,montase/cluster_25_norm.jpg,Seno,,,,,,,,,,,,belum diisi
-26,81,montase/cluster_26.jpg,montase/cluster_26_norm.jpg,Fahmi,,,,,,,,,,,,belum diisi
-27,88,montase/cluster_27.jpg,montase/cluster_27_norm.jpg,Fahmi,,,,,Seno,,,,,,,belum diisi
-28,89,montase/cluster_28.jpg,montase/cluster_28_norm.jpg,Fahmi,,,,,Hafizh,,,,,,,belum diisi
-29,95,montase/cluster_29.jpg,montase/cluster_29_norm.jpg,Seno,,,,,,,,,,,,belum diisi
-30,73,montase/cluster_30.jpg,montase/cluster_30_norm.jpg,Seno,,,,,,,,,,,,belum diisi
-31,76,montase/cluster_31.jpg,montase/cluster_31_norm.jpg,Hafizh,,,,,,,,,,,,belum diisi
-32,100,montase/cluster_32.jpg,montase/cluster_32_norm.jpg,Fahmi,,,,,,,,,,,,belum diisi
-33,127,montase/cluster_33.jpg,montase/cluster_33_norm.jpg,Fahmi,,,,,,,,,,,,belum diisi
-34,114,montase/cluster_34.jpg,montase/cluster_34_norm.jpg,Hafizh,,,,,,,,,,,,belum diisi
-35,125,montase/cluster_35.jpg,montase/cluster_35_norm.jpg,Fahmi,,,,,,,,,,,,belum diisi
-36,135,montase/cluster_36.jpg,montase/cluster_36_norm.jpg,Fahmi,,,,,,,,,,,,belum diisi
-37,157,montase/cluster_37.jpg,montase/cluster_37_norm.jpg,Seno,,,,,,,,,,,,belum diisi
-38,201,montase/cluster_38.jpg,montase/cluster_38_norm.jpg,Hafizh,,,,,,,,,,,,belum diisi
-39,137,montase/cluster_39.jpg,montase/cluster_39_norm.jpg,Seno,,,,,,,,,,,,belum diisi
+0,50,montase/cluster_00.jpg,montase/cluster_00_norm.jpg,Hafizh,Hurricane,ragu,"Terlihat kerusakan dari daratan, tetapi tidak semua pasangan foto menunjukkan kerusakan.",,,,,,,,,perlu diskusi
+1,36,montase/cluster_01.jpg,montase/cluster_01_norm.jpg,Hafizh,Volcano,yakin,"Terlihat area hitam di banyak tempat yang tidak sepenuhnya menghabisi vegetasi hijau, dan tidak tampak garis pantai atau sungai.",,Seno,Tsunami,yakin,Kebanyakan area pada gambar post tergenang.,,,,perlu diskusi
+2,46,montase/cluster_02.jpg,montase/cluster_02_norm.jpg,Seno,Tsunami,yakin,Ada laut dan pesisir,,,,,,,Tsunami,"otomatis: yakin, tanpa cek silang",
+3,36,montase/cluster_03.jpg,montase/cluster_03_norm.jpg,Fahmi,Hurricane,ragu,sebagian besar pasangan menunjukkan kerusakan menyebar termasuk vegetasinya,,,,,,,,,perlu diskusi
+4,34,montase/cluster_04.jpg,montase/cluster_04_norm.jpg,Hafizh,Tsunami,yakin,Terlihat kerusakan rumah atau kawasan di sekitar area pinggiran.,,,,,,,Tsunami,"otomatis: yakin, tanpa cek silang",
+5,39,montase/cluster_05.jpg,montase/cluster_05_norm.jpg,Hafizh,Earthquake,ragu,Bentuk dan ukuran bangunan pada pre dan post terlihat berbeda.,,Seno,Hurricane,ragu,Pre dan Post tidak terlalu banyak perbedaan bahkan hampir tidak ada,,,,perlu diskusi
+6,50,montase/cluster_06.jpg,montase/cluster_06_norm.jpg,Hafizh,Hurricane,yakin,"Tidak ada kerusakan pada bangunan, namun terdapat perbedaan antara pre dan post.",,Fahmi,Hurricane,ragu,perubahan merata seperti dampak angin kencang,,Hurricane,otomatis: penilai 1 = penilai 2,
+7,63,montase/cluster_07.jpg,montase/cluster_07_norm.jpg,Hafizh,Explosion,ragu,"Meskipun tidak terlihat sangat jelas, terdapat beberapa titik yang berubah.",,,,,,,,,perlu diskusi
+8,35,montase/cluster_08.jpg,montase/cluster_08_norm.jpg,Fahmi,Tsunami,yakin,semua pasangan terlihat seperti tergenang air tidak ada pemukiman ataupun hutan,,,,,,,Tsunami,"otomatis: yakin, tanpa cek silang",
+9,47,montase/cluster_09.jpg,montase/cluster_09_norm.jpg,Seno,Earthquake,yakin,Gambar nya mayoritas pegunungan ditambah pre-post nya hampir tidak berbeda,,,,,,,Earthquake,"otomatis: yakin, tanpa cek silang",
+10,66,montase/cluster_10.jpg,montase/cluster_10_norm.jpg,Seno,Hurricane,ragu,Ada bangunan yang di post nya terlihat agak rusak,,,,,,,,,perlu diskusi
+11,64,montase/cluster_11.jpg,montase/cluster_11_norm.jpg,Fahmi,Volcano,ragu,semua pasangan menunjukkan sepeti di lereng gunung dan post fotonya terlihat ke abu abuan,,,,,,,,,perlu diskusi
+12,56,montase/cluster_12.jpg,montase/cluster_12_norm.jpg,Seno,Volcano,yakin,Tekstur permukaan kasar,,Fahmi,Fire,ragu,sebagian besar pasangan menunjukkan lahan hijau tapi bukan pepohonan yang menjadi gersang,,,,perlu diskusi
+13,49,montase/cluster_13.jpg,montase/cluster_13_norm.jpg,Seno,Fire,ragu,Terlihat seperti lahan kering tetapi ada warna hijau nya.,,,,,,,,,perlu diskusi
+14,72,montase/cluster_14.jpg,montase/cluster_14_norm.jpg,Fahmi,Explosion,ragu,semua pasangan berada di perkotaan padat tapi tidak ada bangunan yang runtuh akibat gempa,,,,,,,,,perlu diskusi
+15,83,montase/cluster_15.jpg,montase/cluster_15_norm.jpg,Seno,Hurricane,ragu,"Area pada gambar didominasi lahan hijau/perkebunan di perbukitan dengan minim bangunan dan tidak menunjukkan pola kerusakan ekstrem yang jelas pada citra post, selain perubahan warna vegetasi yang agak merata (kemungkinan angin kencang/hujan badai)",,Hafizh,Earthquake,ragu,Terlihat pada beberapa pasangan foto meninggalkan bekas memanjang.,,,,perlu diskusi
+16,69,montase/cluster_16.jpg,montase/cluster_16_norm.jpg,Fahmi,Earthquake,ragu,semua pasangan berada di lereng gunung tapi tidak ada bercak hitam dan hampir tidak ada perubahan kerusakan terutama yang terpusat,,,,,,,,,perlu diskusi
+17,51,montase/cluster_17.jpg,montase/cluster_17_norm.jpg,Fahmi,Volcano,ragu,sebagian besar pasangan foto terlihat seperti di lereng gunung dan tidak menunjukkan kerusakan yang berarti tapi terlihat seperti tertutupi abu vulkanik,,Hafizh,campur,ragu,"Bagian atas menunjukkan tanda seperti Fire, sedangkan bagian bawah tampak seperti tanah gersang tanpa area hitam atau perbedaan jelas.",,,,perlu diskusi
+18,85,montase/cluster_18.jpg,montase/cluster_18_norm.jpg,Fahmi,Hurricane,ragu,semua foto berada di hutan dengan kerusakan yang terlihat seperti pohon tumbang,,,,,,,,,perlu diskusi
+19,74,montase/cluster_19.jpg,montase/cluster_19_norm.jpg,Seno,Volcano,yakin,Hampir semua area tertutup abu kelabu merata,,,,,,,Volcano,"otomatis: yakin, tanpa cek silang",
+20,60,montase/cluster_20.jpg,montase/cluster_20_norm.jpg,Seno,Earthquake,ragu,"Banyak bangunan di area permukiman padat tampak runtuh menjadi puing yang tersebar merata tanpa satu titik pusat kerusakan, sementara sebagian vegetasi masih terlihat utuh.",,Fahmi,Explosion,ragu,semua di perkotaan tanpa kerusakan bangunan ataupun vegetasinya,,,,perlu diskusi
+21,86,montase/cluster_21.jpg,montase/cluster_21_norm.jpg,Hafizh,campur,yakin,"Bagian atas terlihat seperti Fire, sedangkan bagian bawah seperti Earthquake.",,,,,,,campur,"otomatis: yakin, tanpa cek silang",
+22,67,montase/cluster_22.jpg,montase/cluster_22_norm.jpg,Hafizh,Earthquake,yakin,Beberapa foto meninggalkan bekas seperti luka atau retakan di tanah pada bagian bawah.,,,,,,,Earthquake,"otomatis: yakin, tanpa cek silang",
+23,101,montase/cluster_23.jpg,montase/cluster_23_norm.jpg,Hafizh,Volcano,yakin,Terdapat peninggalan abu vulkanik di beberapa wilayah.,,Seno,Hurricane,ragu,Area permukiman dekat kanal atau danau tampak mengalami luapan genangan air yang meluas ke halaman dan jalan pada citra post tanpa garis pantai laut maupun kerusakan struktural masif.,,,,perlu diskusi
+24,96,montase/cluster_24.jpg,montase/cluster_24_norm.jpg,Hafizh,Earthquake,yakin,Beberapa kawasan memiliki pepohonan rusak yang membentang membentuk garis.,,,,,,,Earthquake,"otomatis: yakin, tanpa cek silang",
+25,67,montase/cluster_25.jpg,montase/cluster_25_norm.jpg,Seno,Earthquake,ragu,"Area perkotaan padat ini tidak menunjukkan tanda-tanda banjir, kebakaran, abu, maupun kerusakan vegetasi (pohon tetap hijau utuh), sehingga paling mengarah ke gempa bumi meskipun puing bangunan runtuh kurang terlihat jelas pada resolusi ini.",,,,,,,,,perlu diskusi
+26,81,montase/cluster_26.jpg,montase/cluster_26_norm.jpg,Fahmi,Volcano,yakin,terlihat beberapa lapisan hitam di beberapa foto dan beberapa lainnya seperti tertutupi abu vulkanik,,,,,,,Volcano,"otomatis: yakin, tanpa cek silang",
+27,88,montase/cluster_27.jpg,montase/cluster_27_norm.jpg,Fahmi,Earthquake,yakin,pola kerusakan bangunan membentang luas di area permukiman padat sementara vegetasi hijau di sekitarnya tetap utuh,,Seno,Earthquake,ragu,"Area permukiman padat ini tidak menunjukkan tanda banjir, abu, kebakaran, maupun kerusakan vegetasi (pepohonan tetap hijau utuh), sehingga paling mengarah ke gempa bumi meskipun detail puing bangunan runtuh kurang terlihat jelas pada resolusi ini",,Earthquake,otomatis: penilai 1 = penilai 2,
+28,89,montase/cluster_28.jpg,montase/cluster_28_norm.jpg,Fahmi,Fire,yakin,tutupan vegetasi hijau pada perbukitan di foto pre berubah total menjadi lahan hangus yang gelap berabu dan gersang pada foto post,,Hafizh,Fire,yakin,Terlihat kondisi hutan yang gersang pada gambar awal maupun sekarang.,,Fire,otomatis: penilai 1 = penilai 2,
+29,95,montase/cluster_29.jpg,montase/cluster_29_norm.jpg,Seno,Earthquake,ragu,"Area permukiman dan lahan pertanian ini tidak menunjukkan tanda kebakaran, abu vulkanik, garis pantai, maupun kerusakan vegetasi yang luas (pepohonan tetap hijau utuh), sehingga paling mengarah ke gempa bumi meskipun puing bangunan tidak terlihat jelas pada resolusi ini.",,,,,,,,,perlu diskusi
+30,73,montase/cluster_30.jpg,montase/cluster_30_norm.jpg,Seno,Earthquake,ragu,"Area perkotaan padat ini tidak memiliki garis pantai, jejak hangus, maupun lapisan abu, sementara pepohonan tetap hijau utuh tanpa kerusakan vegetasi yang mencolok.",,,,,,,,,perlu diskusi
+31,76,montase/cluster_31.jpg,montase/cluster_31_norm.jpg,Hafizh,Hurricane,ragu,"Kawasan gedung terlihat tetap kokoh, namun ada perbedaan pada bangunan-bangunan kecilnya.",,,,,,,,,perlu diskusi
+32,100,montase/cluster_32.jpg,montase/cluster_32_norm.jpg,Fahmi,Fire,yakin,ada bangunan pemukiman yang terbakar habis dan vegetasi sekitarnya menjadi hangus,,,,,,,Fire,"otomatis: yakin, tanpa cek silang",
+33,127,montase/cluster_33.jpg,montase/cluster_33_norm.jpg,Fahmi,Earthquake,ragu,tidak ada kerusakan tertentu,,,,,,,,,perlu diskusi
+34,114,montase/cluster_34.jpg,montase/cluster_34_norm.jpg,Hafizh,Hurricane,ragu,Hanya ada beberapa perubahan seperti genangan air yang tiba-tiba muncul.,,,,,,,,,perlu diskusi
+35,125,montase/cluster_35.jpg,montase/cluster_35_norm.jpg,Fahmi,Hurricane,ragu,terlihat foto vegetasi yang tumbang yang merusak secara tersebar,,,,,,,,,perlu diskusi
+36,135,montase/cluster_36.jpg,montase/cluster_36_norm.jpg,Fahmi,Fire,yakin,vegetasi berubah menjadi hangus dengan garis batas kebakaran yang jelas,,,,,,,Fire,"otomatis: yakin, tanpa cek silang",
+37,157,montase/cluster_37.jpg,montase/cluster_37_norm.jpg,Seno,Hurricane,yakin,"Tata letak permukiman suburban (rumah tapak berhalaman dan taman rumah mobil) yang banyak ditumbuhi pohon menunjukkan sedikit penipisan/perubahan warna vegetasi serta tutupan awan pada citra post, yang sangat khas untuk wilayah terdampak badai.",,,,,,,Hurricane,"otomatis: yakin, tanpa cek silang",
+38,201,montase/cluster_38.jpg,montase/cluster_38_norm.jpg,Hafizh,Explosion,ragu,Pada gambar awal terlihat kerusakan yang terjadi dalam radius tertentu.,,,,,,,,,perlu diskusi
+39,137,montase/cluster_39.jpg,montase/cluster_39_norm.jpg,Seno,campur,yakin,Cluster ini jelas dikelompokkan berdasarkan kemiripan tutupan lahan (hutan lebat dan jalan/sungai pedesaan) dengan variasi sensor dan kondisi post yang beragam tanpa satu pola kerusakan bencana yang seragam.,,,,,,,campur,"otomatis: yakin, tanpa cek silang",
