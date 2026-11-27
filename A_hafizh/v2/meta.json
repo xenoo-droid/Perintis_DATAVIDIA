@@ -1,0 +1,17 @@
+{
+  "versi": "v2",
+  "oleh": "Hafizh",
+  "tanggal": "2026-11-27 17:08",
+  "input": {
+    "dataset": "task-2-datavidia-11-0"
+  },
+  "pengaturan": {
+    "backbone": "vit_large_patch14_dinov2.lvd142m",
+    "img_size": 308,
+    "dim": 1024,
+    "tta": "D4_8x",
+    "precision": "fp16_autocast",
+    "seed": 42
+  },
+  "catatan": "Ekstraksi DINOv2-Large Kaggle Version 1 (color_norm + gray3 + changed_embed + patch_change_stats_v3 + artifact_and_phys_v3)"
+}
