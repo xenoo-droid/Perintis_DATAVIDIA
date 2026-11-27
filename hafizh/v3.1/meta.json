@@ -1,20 +1,25 @@
 {
   "versi": "v3.1",
   "oleh": "Hafizh",
-  "tanggal": "2026-11-27 17:37",
+  "tanggal": "2026-11-27 22:13",
   "input": {
     "dataset": "task-2-datavidia-11-0"
   },
   "pengaturan": {
-    "backbone": "facebook/dinov3-vitl16-pretrain-sat493m",
-    "img_size": 256,
+    "backbone": "vit_large_patch14_dinov2.lvd142m",
+    "license": "Apache-2.0",
+    "img_size": 308,
     "dim": 1024,
     "tta": "D4_8x",
-    "precision": "fp16_autocast",
+    "precision": "fp32",
+    "n_gpus_used": 1,
     "seed": 42,
-    "tes_a_color_recall1": 0.06823899371069182,
-    "tes_a_gray_recall1": 0.061635220125786164,
-    "ambang_color_shift": 15.0
+    "ambang_color_shift": 24.0,
+    "tes_a_color_recall1": 0.3031446540880503,
+    "tes_a_color_recall10": 0.5327044025157233,
+    "tes_a_gray_recall1": 0.2572327044025157,
+    "color_unreliable_v4_frac": 0.6459119496855346,
+    "runtime_kaggle_sec": 11956.8
   },
-  "catatan": "Run v3.2 Kaggle (DINOv3 SAT-493M + offline weights/ tersimpan di Drive/lokal, belum di GitHub karena >100MB; plus A_fitur.ipynb ber-output dan dino_v4_frozen_for_seno.py)"
+  "catatan": "Hasil Kaggle Version 5 (DINOv2-Large 308px FP32 deterministik + phys_v4 AMBANG_COLOR_SHIFT=24.0; bobot offline weights/dinov2_large/ disimpan di Drive, tidak di-commit ke GitHub)."
 }
