@@ -1,0 +1,115 @@
+{
+  "versi": "run4_sementara2",
+  "oleh": "Seno",
+  "tanggal": "2026-11-28 04:18",
+  "strategi": "v3: cluster dari model, nama per cluster dari anggota tim, prediksi dari classifier",
+  "input": {
+    "fitur": "hafizh/v3.1",
+    "label": "fahmi/v3_sementara2",
+    "clustering": "fahmi/v3",
+    "nama_dummy": false,
+    "status_nama": "sementara",
+    "cluster_tanpa_nama": [
+      2,
+      10,
+      12,
+      13,
+      15,
+      29,
+      39
+    ],
+    "cek_centroid": "selisih maks 1.46e-03",
+    "sumber_z": "pca.joblib + mean_x.npy dari B"
+  },
+  "pengaturan": {
+    "seed_kedekatan_min": 0.5,
+    "bobot_yakin": {
+      "yakin": 1.0,
+      "ragu": 0.5
+    },
+    "bobot_tanpa_nama": 0.0,
+    "b_pca": 64,
+    "b_round": 4,
+    "ls_kernel": "knn",
+    "ls_knn": 15,
+    "ls_alpha": 0.2,
+    "fitur_blok": [
+      "color_pre",
+      "color_post"
+    ],
+    "c_pca": 128,
+    "lr_C": 1.0,
+    "class_weight": "balanced",
+    "seed": 42
+  },
+  "nama_cluster": {
+    "0": "Volcano",
+    "1": "Hurricane",
+    "2": null,
+    "3": "Hurricane",
+    "4": "Tsunami",
+    "5": "Earthquake",
+    "6": "Fire",
+    "7": "Hurricane",
+    "8": "Tsunami",
+    "9": "Volcano",
+    "10": null,
+    "11": "Tsunami",
+    "12": null,
+    "13": null,
+    "14": "Earthquake",
+    "15": null,
+    "16": "Hurricane",
+    "17": "Earthquake",
+    "18": "Hurricane",
+    "19": "Fire",
+    "20": "Earthquake",
+    "21": "Hurricane",
+    "22": "Fire",
+    "23": "Hurricane",
+    "24": "Hurricane",
+    "25": "Earthquake",
+    "26": "Volcano",
+    "27": "Earthquake",
+    "28": "Fire",
+    "29": null,
+    "30": "Earthquake",
+    "31": "Earthquake",
+    "32": "Fire",
+    "33": "Earthquake",
+    "34": "Hurricane",
+    "35": "Hurricane",
+    "36": "Fire",
+    "37": "Hurricane",
+    "38": "Hurricane",
+    "39": null
+  },
+  "n_seed": 1333,
+  "cv_vs_label_latih": {
+    "acc": 0.8715,
+    "macro_f1": 0.8413
+  },
+  "hasil": {
+    "kelas_terprediksi": 5,
+    "sama_label_latih": 0.9044,
+    "sama_nama_cluster": 0.923,
+    "sama_run3_sementara": 0.4896
+  },
+  "distribusi_prediksi": {
+    "Earthquake": 706,
+    "Explosion": 0,
+    "Fire": 699,
+    "Hurricane": 1393,
+    "Tsunami": 174,
+    "Volcano": 208
+  },
+  "versi_lib": {
+    "python": "3.13.18",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "pyarrow": "26.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  }
+}
