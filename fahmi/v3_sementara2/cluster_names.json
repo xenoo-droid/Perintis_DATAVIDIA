@@ -1,0 +1,368 @@
+{
+  "status": "sementara",
+  "aturan": "kelas_cluster = kelas_1 (penilai 1, lembar putaran 2) untuk semua cluster; yakin_cluster = yakin_1; cluster dengan kelas_1 = 'campur' diberi kelas kosong (null, tidak dipakai sebagai label latih)",
+  "dibuat_pada": "2026-11-28 04:11",
+  "sumber": "v3/lembar_penamaan.csv putaran 2 (penamaan manual tim dari montase, setelah revisi diskusi)",
+  "cluster": {
+    "0": {
+      "kelas": "Volcano",
+      "yakin": "yakin",
+      "alasan": "Wilayah perbukitan bervegetasi tropis dan permukiman kecil pada citra post tertutup kabut tebal, asap vulkanik, serta lapisan abu (khas erupsi Guatemala).",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "1": {
+      "kelas": "Hurricane",
+      "yakin": "yakin",
+      "alasan": "Lahan hijau terbuka dan pepohonan pada citra post tergenang air gelap secara luas akibat banjir badai (khas Hurricane Florence/Harvey).",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "2": {
+      "kelas": null,
+      "yakin": "yakin",
+      "alasan": "Cluster ini menggabungkan dua pola bencana berbeda hanya berdasarkan kemiripan area perairan dan pesisir, yaitu permukiman pesisir tropis yang hancur rata menjadi puing (khas tsunami) bercampur dengan permukiman suburban berdermaga kayu serta danau pedalaman yang relatif utuh (khas hurikan).",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": "campur: tidak dipakai sebagai label latih"
+    },
+    "3": {
+      "kelas": "Hurricane",
+      "yakin": "ragu",
+      "alasan": "sebagian besar pasangan menunjukkan kerusakan menyebar termasuk vegetasinya",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "4": {
+      "kelas": "Tsunami",
+      "yakin": "yakin",
+      "alasan": "Kawasan pesisir dengan perubahan garis pantai, air laut keruh, serta permukiman dan fasilitas tepi pantai yang tersapu (khas Palu/Sunda Tsunami).",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "5": {
+      "kelas": "Earthquake",
+      "yakin": "yakin",
+      "alasan": "Kawasan perkotaan padat dengan blok bangunan rapat menunjukkan pola kerusakan struktur dan reruntuhan membentang luas (khas Mexico City Earthquake).",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "6": {
+      "kelas": "Fire",
+      "yakin": "yakin",
+      "alasan": "Lahan vegetasi, perbukitan, dan area pertanian pada citra post berubah total menjadi area hangus berwarna gelap/hitam dan gersang (khas Wildfire).",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "7": {
+      "kelas": "Hurricane",
+      "yakin": "yakin",
+      "alasan": "Kawasan permukiman suburban berhutan lebat menunjukkan kerontokan daun/vegetasi (berubah cokelat) dan kerusakan struktur tersebar (khas Hurricane Michael/Florence).",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "8": {
+      "kelas": "Tsunami",
+      "yakin": "yakin",
+      "alasan": "semua pasangan terlihat seperti tergenang air tidak ada pemukiman ataupun hutan",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "9": {
+      "kelas": "Volcano",
+      "yakin": "ragu",
+      "alasan": "Mayoritas lereng pegunungan bervegetasi di baris dekat pusat berubah menjadi permukaan kelabu/kecokelatan yang tampak halus tertimbun lapisan abu beserta alur aliran material di lembah pada citra post, meski beberapa sampel acak tampak menghitam atau tetap hijau sehingga masih menyisakan sedikit keraguan dengan kebakaran/campur.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "10": {
+      "kelas": null,
+      "yakin": "yakin",
+      "alasan": "Cluster ini dikelompokkan berdasarkan kemiripan tutupan lahan permukiman tropis berpepohonan lebat dengan variasi sensor (grayscale dan RGB) serta pola post yang tidak seragam, mulai dari area tetap utuh, kawasan pesisir pantai, blok perkotaan padat, hingga area hutan berasap dengan nyala api.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": "campur: tidak dipakai sebagai label latih"
+    },
+    "11": {
+      "kelas": "Tsunami",
+      "yakin": "yakin",
+      "alasan": "seluruh pasangan foto pada empat baris teratas memperlihatkan gelombang air laut yang menggenangi daratan pesisir",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "12": {
+      "kelas": null,
+      "yakin": "yakin",
+      "alasan": "Seluruh sampel didominasi petak lahan pertanian dan ladang terbuka tanpa bangunan (termasuk ladang irigasi melingkar dan area galian) dengan perubahan warna musiman yang saling berlawanan antara hijau ke cokelat maupun cokelat ke hijau tanpa pola kerusakan bencana yang seragam.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": "campur: tidak dipakai sebagai label latih"
+    },
+    "13": {
+      "kelas": null,
+      "yakin": "ragu",
+      "alasan": "Cluster ini mengumpulkan area lahan kosong dan semak belukar alami tanpa bangunan dengan variasi sensor ekstrem serta kondisi post yang tidak seragam, mulai dari vegetasi tetap hijau utuh, permukaan abu-abu polos/berawan, lereng pegunungan gelap, hingga sebagian kecil area menghitam mirip bekas kebakaran.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": "campur: tidak dipakai sebagai label latih"
+    },
+    "14": {
+      "kelas": "Earthquake",
+      "yakin": "yakin",
+      "alasan": "empat baris teratas memperlihatkan kawasan apartemen perkotaan padat dengan keruntuhan lokal pada beberapa gedung bertingkat",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "15": {
+      "kelas": null,
+      "yakin": "yakin",
+      "alasan": "Cluster ini dikelompokkan berdasarkan kemiripan tutupan lahan perbukitan berhutan, perkebunan, dan jalan pedesaan minim bangunan dari beragam bioma serta sensor tanpa satu pola kerusakan bencana yang konsisten, di mana mayoritas vegetasi tetap utuh sementara sebagian kecil tampak hangus atau tertutup awan.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": "campur: tidak dipakai sebagai label latih"
+    },
+    "16": {
+      "kelas": "Hurricane",
+      "yakin": "ragu",
+      "alasan": "hilangnya rumpun pepohonan serta meluasnya genangan air hujan di cekungan lahan pertanian pedalaman",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "17": {
+      "kelas": "Earthquake",
+      "yakin": "ragu",
+      "alasan": "empat baris teratas didominasi lahan pertanian dengan bangunan pedesaan dan pepohonan yang tetap utuh tanpa tanda kebakaran genangan maupun abu vulkanik",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "18": {
+      "kelas": "Hurricane",
+      "yakin": "ragu",
+      "alasan": "semua foto berada di hutan dengan kerusakan yang terlihat seperti pohon tumbang",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "19": {
+      "kelas": "Fire",
+      "yakin": "yakin",
+      "alasan": "Hampir seluruh pasangan citra memperlihatkan permukiman suburban (termasuk blok cul-de-sac dan persimpangan jalan raya) yang rumahnya habis terbakar menyisakan fondasi abu kelabu-putih serta lahan hangus menghitam dengan kepulan asap, sementara jaringan jalan aspal tetap terlihat jelas tidak tertimbun.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "20": {
+      "kelas": "Earthquake",
+      "yakin": "ragu",
+      "alasan": "Seluruh pasangan citra menampilkan permukiman grid padat berpepohonan yang tidak menunjukkan tanda genangan banjir, kebakaran, abu vulkanik, maupun garis pantai, sehingga paling mengarah ke gempa bumi meskipun sebagian besar bangunan dan vegetasi tampak masih utuh pada resolusi montase.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "21": {
+      "kelas": "Hurricane",
+      "yakin": "yakin",
+      "alasan": "Kawasan hutan dan perbukitan tropis bervegetasi lebat mengalami kerontokan vegetasi meluas dan berubah kecokelatan tanpa pola hangus pekat.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "22": {
+      "kelas": "Fire",
+      "yakin": "yakin",
+      "alasan": "Petak perkebunan dan lahan pertanian rural yang sebagian berubah abu-abu/hangus dan gersang pada citra post (khas Portugal Wildfire/Pinery Bushfire).",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "23": {
+      "kelas": "Hurricane",
+      "yakin": "yakin",
+      "alasan": "Permukiman suburban khas AS dengan kanal dan kolam retensi menunjukkan kerusakan vegetasi dan atap tersebar serta badan air lebih gelap (khas Hurricane Harvey/Michael).",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "24": {
+      "kelas": "Hurricane",
+      "yakin": "ragu",
+      "alasan": "Area perbukitan tropis dengan pepohonan tersebar mengalami penipisan vegetasi dan perubahan warna lahan; mengarah ke Hurricane namun beririsan dengan area Volcano.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "25": {
+      "kelas": "Earthquake",
+      "yakin": "ragu",
+      "alasan": "Seluruh sampel secara seragam menampilkan kawasan perkotaan padat beratap terakota, bangunan komersial, dan jalan raya tanpa tanda genangan banjir, kebakaran, abu vulkanik, garis pantai, maupun kerusakan vegetasi, sehingga paling mengarah ke gempa bumi meski kerusakan struktural sulit diamati pada resolusi montase.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "26": {
+      "kelas": "Volcano",
+      "yakin": "yakin",
+      "alasan": "terlihat beberapa lapisan hitam di beberapa foto dan beberapa lainnya seperti tertutupi abu vulkanik",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "27": {
+      "kelas": "Earthquake",
+      "yakin": "yakin",
+      "alasan": "pola kerusakan bangunan membentang luas di area permukiman padat sementara vegetasi hijau di sekitarnya tetap utuh",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "28": {
+      "kelas": "Fire",
+      "yakin": "yakin",
+      "alasan": "tutupan vegetasi hijau pada perbukitan di foto pre berubah total menjadi lahan hangus yang gelap berabu dan gersang pada foto post",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "29": {
+      "kelas": null,
+      "yakin": "yakin",
+      "alasan": "Cluster ini dikelompokkan berdasarkan kemiripan tutupan lahan pertanian pedesaan dan permukiman jarang dari beragam wilayah serta sensor (RGB dan grayscale) dengan kondisi post yang saling bertolak belakang, mulai dari lahan tetap hijau utuh, perubahan musiman kering, area gelap/basah, hingga lembah yang berubah abu-abu kelabu menyeluruh.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": "campur: tidak dipakai sebagai label latih"
+    },
+    "30": {
+      "kelas": "Earthquake",
+      "yakin": "ragu",
+      "alasan": "Seluruh sampel secara seragam menampilkan kawasan permukiman padat beratap genteng terakota dan pepohonan hijau yang tetap utuh tanpa tanda genangan banjir, garis pantai, jejak kebakaran, maupun lapisan abu vulkanik, sehingga paling mengarah ke gempa bumi meskipun keruntuhan bangunan sulit terkonfirmasi jelas pada resolusi montase.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "31": {
+      "kelas": "Earthquake",
+      "yakin": "yakin",
+      "alasan": "Kawasan permukiman perkotaan padat dengan blok bangunan rapat memperlihatkan pola kerusakan struktur dan reruntuhan yang membentang luas.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "32": {
+      "kelas": "Fire",
+      "yakin": "yakin",
+      "alasan": "ada bangunan pemukiman yang terbakar habis dan vegetasi sekitarnya menjadi hangus",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "33": {
+      "kelas": "Earthquake",
+      "yakin": "ragu",
+      "alasan": "tidak ada kerusakan tertentu",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "34": {
+      "kelas": "Hurricane",
+      "yakin": "yakin",
+      "alasan": "Permukiman suburban khas AS dengan kanal dan kolam retensi menunjukkan kerusakan vegetasi serta atap secara tersebar dengan badan air yang lebih gelap.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "35": {
+      "kelas": "Hurricane",
+      "yakin": "ragu",
+      "alasan": "terlihat foto vegetasi yang tumbang yang merusak secara tersebar",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "36": {
+      "kelas": "Fire",
+      "yakin": "yakin",
+      "alasan": "vegetasi berubah menjadi hangus dengan garis batas kebakaran yang jelas",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "37": {
+      "kelas": "Hurricane",
+      "yakin": "ragu",
+      "alasan": "Mayoritas sampel secara konsisten menampilkan tata letak permukiman suburban berhalaman dan taman rumah mobil berpepohonan dengan tutupan awan pascabadai serta sedikit penipisan/perubahan warna vegetasi yang khas wilayah terdampak badai, namun tanpa genangan banjir luas maupun kerusakan struktural masif sehingga masih menyisakan keraguan.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "38": {
+      "kelas": "Hurricane",
+      "yakin": "yakin",
+      "alasan": "Area permukiman bervegetasi lebat mengalami kerontokan dan penipisan vegetasi meluas (berubah kecokelatan) serta kerusakan struktur tersebar.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "39": {
+      "kelas": null,
+      "yakin": "yakin",
+      "alasan": "Cluster ini jelas dikelompokkan berdasarkan kemiripan tutupan lahan hutan lebat, jalan pedesaan, dan sungai/kanal minim bangunan dengan variasi sensor serta kondisi post yang sangat beragam (hutan tetap hijau utuh, sungai keruh, kanal pesisir, pergeseran warna kanopi, hingga awan tebal) tanpa satu pola kerusakan bencana yang seragam.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": "campur: tidak dipakai sebagai label latih"
+    }
+  }
+}

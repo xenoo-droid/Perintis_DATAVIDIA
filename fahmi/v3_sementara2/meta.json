@@ -1,0 +1,76 @@
+{
+  "versi": "v3_sementara2",
+  "oleh": "Fahmi",
+  "tanggal": "2026-11-28 04:11",
+  "status": "sementara",
+  "keterangan": "Pemetaan SEMENTARA kedua untuk submission cepat, dari lembar penamaan putaran 2 (revisi tim berdasarkan diskusi montase). Aturan pemetaan ditetapkan Fahmi sebelum submission dan tidak disetel dari skor leaderboard. Nama cluster berasal dari penamaan manual tim dari montase (FAQ no. 7); AI hanya membuat kode.",
+  "aturan": "kelas_cluster = kelas_1 (penilai 1, lembar putaran 2) untuk semua cluster; yakin_cluster = yakin_1; cluster dengan kelas_1 = 'campur' diberi kelas kosong (null, tidak dipakai sebagai label latih)",
+  "sumber": "lembar putaran 2",
+  "cluster_campur_kosong": [
+    2,
+    10,
+    12,
+    13,
+    15,
+    29,
+    39
+  ],
+  "input": {
+    "clustering": "fahmi/v3 (dikunci 2026-11-28 00:03, sha1 event_id 9517d553f3ad1ea535c7175b7a60f3c85bba2652)",
+    "lembar": "fahmi/v3/lembar_penamaan.csv",
+    "lembar_sha1": "658cf5727c799b07563afb59de5aa0e7a0645e95",
+    "pencocokan_final": "fahmi/v3/pca.joblib + mean_x.npy + centroids.npy"
+  },
+  "pengaturan": {
+    "metode": "spectral",
+    "affinity": "nearest_neighbors",
+    "assign_labels": "cluster_qr",
+    "K": 40,
+    "knn": 15,
+    "pca": 64,
+    "round": 4,
+    "seed": 42,
+    "noise_skala": 0.001
+  },
+  "kesepakatan_cek_silang_putaran2": {
+    "n": 10,
+    "sama": 5,
+    "persen_setuju": 50.0,
+    "kappa": 0.359
+  },
+  "distribusi": {
+    "Earthquake": {
+      "n_cluster": 9,
+      "n_foto": 653
+    },
+    "Explosion": {
+      "n_cluster": 0,
+      "n_foto": 0
+    },
+    "Fire": {
+      "n_cluster": 6,
+      "n_foto": 515
+    },
+    "Hurricane": {
+      "n_cluster": 12,
+      "n_foto": 1169
+    },
+    "Tsunami": {
+      "n_cluster": 3,
+      "n_foto": 133
+    },
+    "Volcano": {
+      "n_cluster": 3,
+      "n_foto": 178
+    },
+    "(kosong)": {
+      "n_cluster": 7,
+      "n_foto": 532
+    }
+  },
+  "rencana_model_final": {
+    "classifier": "Seno melatih classifier dari events.parquet: target kelas_cluster, bobot sampel kedekatan",
+    "notebook_final": "Mencocokkan cluster dengan pca.joblib + mean_x.npy + centroids.npy (tanpa fit ulang, tanpa clustering)",
+    "dictionary_nama": "Dictionary event_id -> kelas (cluster_names.json) ditulis eksplisit di notebook final (FAQ no. 7)"
+  }
+}
