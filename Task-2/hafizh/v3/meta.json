@@ -1,0 +1,18 @@
+{
+  "versi": "v3",
+  "oleh": "Hafizh",
+  "tanggal": "2026-11-27 17:08",
+  "input": {
+    "dataset": "task-2-datavidia-11-0"
+  },
+  "pengaturan": {
+    "backbone": "facebook/dinov3-vitl16-pretrain-sat493m",
+    "img_size": 256,
+    "dim": 1024,
+    "tta": "D4_8x",
+    "precision": "fp16_autocast",
+    "seed": 42,
+    "ambang_color_shift": 15.0
+  },
+  "catatan": "Ekstraksi DINOv3 SAT-493M Kaggle Version 2 + phys_v4.parquet (23 kolom; AMBANG_COLOR_SHIFT=15.0, color_unreliable_v4=81.2%)"
+}
