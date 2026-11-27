@@ -1,0 +1,368 @@
+{
+  "status": "sementara",
+  "aturan": "kelas_cluster = kelas_1 (penilai 1) untuk semua cluster, kecuali cluster campur [21, 39] yang diberi kelas kosong (null, tidak dipakai sebagai label latih); yakin_cluster = yakin_1",
+  "dibuat_pada": "2026-11-28 03:02",
+  "sumber": "v3/lembar_penamaan.csv (penamaan manual tim dari montase, sebelum diskusi)",
+  "cluster": {
+    "0": {
+      "kelas": "Hurricane",
+      "yakin": "ragu",
+      "alasan": "Terlihat kerusakan dari daratan, tetapi tidak semua pasangan foto menunjukkan kerusakan.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "1": {
+      "kelas": "Volcano",
+      "yakin": "yakin",
+      "alasan": "Terlihat area hitam di banyak tempat yang tidak sepenuhnya menghabisi vegetasi hijau, dan tidak tampak garis pantai atau sungai.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "2": {
+      "kelas": "Tsunami",
+      "yakin": "yakin",
+      "alasan": "Ada laut dan pesisir",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "3": {
+      "kelas": "Hurricane",
+      "yakin": "ragu",
+      "alasan": "sebagian besar pasangan menunjukkan kerusakan menyebar termasuk vegetasinya",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "4": {
+      "kelas": "Tsunami",
+      "yakin": "yakin",
+      "alasan": "Terlihat kerusakan rumah atau kawasan di sekitar area pinggiran.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "5": {
+      "kelas": "Earthquake",
+      "yakin": "ragu",
+      "alasan": "Bentuk dan ukuran bangunan pada pre dan post terlihat berbeda.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "6": {
+      "kelas": "Hurricane",
+      "yakin": "yakin",
+      "alasan": "Tidak ada kerusakan pada bangunan, namun terdapat perbedaan antara pre dan post.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "7": {
+      "kelas": "Explosion",
+      "yakin": "ragu",
+      "alasan": "Meskipun tidak terlihat sangat jelas, terdapat beberapa titik yang berubah.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "8": {
+      "kelas": "Tsunami",
+      "yakin": "yakin",
+      "alasan": "semua pasangan terlihat seperti tergenang air tidak ada pemukiman ataupun hutan",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "9": {
+      "kelas": "Earthquake",
+      "yakin": "yakin",
+      "alasan": "Gambar nya mayoritas pegunungan ditambah pre-post nya hampir tidak berbeda",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "10": {
+      "kelas": "Hurricane",
+      "yakin": "ragu",
+      "alasan": "Ada bangunan yang di post nya terlihat agak rusak",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "11": {
+      "kelas": "Volcano",
+      "yakin": "ragu",
+      "alasan": "semua pasangan menunjukkan sepeti di lereng gunung dan post fotonya terlihat ke abu abuan",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "12": {
+      "kelas": "Volcano",
+      "yakin": "yakin",
+      "alasan": "Tekstur permukaan kasar",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "13": {
+      "kelas": "Fire",
+      "yakin": "ragu",
+      "alasan": "Terlihat seperti lahan kering tetapi ada warna hijau nya.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "14": {
+      "kelas": "Explosion",
+      "yakin": "ragu",
+      "alasan": "semua pasangan berada di perkotaan padat tapi tidak ada bangunan yang runtuh akibat gempa",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "15": {
+      "kelas": "Hurricane",
+      "yakin": "ragu",
+      "alasan": "Area pada gambar didominasi lahan hijau/perkebunan di perbukitan dengan minim bangunan dan tidak menunjukkan pola kerusakan ekstrem yang jelas pada citra post, selain perubahan warna vegetasi yang agak merata (kemungkinan angin kencang/hujan badai)",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "16": {
+      "kelas": "Earthquake",
+      "yakin": "ragu",
+      "alasan": "semua pasangan berada di lereng gunung tapi tidak ada bercak hitam dan hampir tidak ada perubahan kerusakan terutama yang terpusat",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "17": {
+      "kelas": "Volcano",
+      "yakin": "ragu",
+      "alasan": "sebagian besar pasangan foto terlihat seperti di lereng gunung dan tidak menunjukkan kerusakan yang berarti tapi terlihat seperti tertutupi abu vulkanik",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "18": {
+      "kelas": "Hurricane",
+      "yakin": "ragu",
+      "alasan": "semua foto berada di hutan dengan kerusakan yang terlihat seperti pohon tumbang",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "19": {
+      "kelas": "Volcano",
+      "yakin": "yakin",
+      "alasan": "Hampir semua area tertutup abu kelabu merata",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "20": {
+      "kelas": "Earthquake",
+      "yakin": "ragu",
+      "alasan": "Banyak bangunan di area permukiman padat tampak runtuh menjadi puing yang tersebar merata tanpa satu titik pusat kerusakan, sementara sebagian vegetasi masih terlihat utuh.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "21": {
+      "kelas": null,
+      "yakin": "yakin",
+      "alasan": "Bagian atas terlihat seperti Fire, sedangkan bagian bawah seperti Earthquake.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": "campur: tidak dipakai sebagai label latih"
+    },
+    "22": {
+      "kelas": "Earthquake",
+      "yakin": "yakin",
+      "alasan": "Beberapa foto meninggalkan bekas seperti luka atau retakan di tanah pada bagian bawah.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "23": {
+      "kelas": "Volcano",
+      "yakin": "yakin",
+      "alasan": "Terdapat peninggalan abu vulkanik di beberapa wilayah.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "24": {
+      "kelas": "Earthquake",
+      "yakin": "yakin",
+      "alasan": "Beberapa kawasan memiliki pepohonan rusak yang membentang membentuk garis.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "25": {
+      "kelas": "Earthquake",
+      "yakin": "ragu",
+      "alasan": "Area perkotaan padat ini tidak menunjukkan tanda-tanda banjir, kebakaran, abu, maupun kerusakan vegetasi (pohon tetap hijau utuh), sehingga paling mengarah ke gempa bumi meskipun puing bangunan runtuh kurang terlihat jelas pada resolusi ini.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "26": {
+      "kelas": "Volcano",
+      "yakin": "yakin",
+      "alasan": "terlihat beberapa lapisan hitam di beberapa foto dan beberapa lainnya seperti tertutupi abu vulkanik",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "27": {
+      "kelas": "Earthquake",
+      "yakin": "yakin",
+      "alasan": "pola kerusakan bangunan membentang luas di area permukiman padat sementara vegetasi hijau di sekitarnya tetap utuh",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "28": {
+      "kelas": "Fire",
+      "yakin": "yakin",
+      "alasan": "tutupan vegetasi hijau pada perbukitan di foto pre berubah total menjadi lahan hangus yang gelap berabu dan gersang pada foto post",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "29": {
+      "kelas": "Earthquake",
+      "yakin": "ragu",
+      "alasan": "Area permukiman dan lahan pertanian ini tidak menunjukkan tanda kebakaran, abu vulkanik, garis pantai, maupun kerusakan vegetasi yang luas (pepohonan tetap hijau utuh), sehingga paling mengarah ke gempa bumi meskipun puing bangunan tidak terlihat jelas pada resolusi ini.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "30": {
+      "kelas": "Earthquake",
+      "yakin": "ragu",
+      "alasan": "Area perkotaan padat ini tidak memiliki garis pantai, jejak hangus, maupun lapisan abu, sementara pepohonan tetap hijau utuh tanpa kerusakan vegetasi yang mencolok.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "31": {
+      "kelas": "Hurricane",
+      "yakin": "ragu",
+      "alasan": "Kawasan gedung terlihat tetap kokoh, namun ada perbedaan pada bangunan-bangunan kecilnya.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "32": {
+      "kelas": "Fire",
+      "yakin": "yakin",
+      "alasan": "ada bangunan pemukiman yang terbakar habis dan vegetasi sekitarnya menjadi hangus",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "33": {
+      "kelas": "Earthquake",
+      "yakin": "ragu",
+      "alasan": "tidak ada kerusakan tertentu",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "34": {
+      "kelas": "Hurricane",
+      "yakin": "ragu",
+      "alasan": "Hanya ada beberapa perubahan seperti genangan air yang tiba-tiba muncul.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "35": {
+      "kelas": "Hurricane",
+      "yakin": "ragu",
+      "alasan": "terlihat foto vegetasi yang tumbang yang merusak secara tersebar",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "36": {
+      "kelas": "Fire",
+      "yakin": "yakin",
+      "alasan": "vegetasi berubah menjadi hangus dengan garis batas kebakaran yang jelas",
+      "penilai": [
+        "Fahmi"
+      ],
+      "catatan": ""
+    },
+    "37": {
+      "kelas": "Hurricane",
+      "yakin": "yakin",
+      "alasan": "Tata letak permukiman suburban (rumah tapak berhalaman dan taman rumah mobil) yang banyak ditumbuhi pohon menunjukkan sedikit penipisan/perubahan warna vegetasi serta tutupan awan pada citra post, yang sangat khas untuk wilayah terdampak badai.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": ""
+    },
+    "38": {
+      "kelas": "Explosion",
+      "yakin": "ragu",
+      "alasan": "Pada gambar awal terlihat kerusakan yang terjadi dalam radius tertentu.",
+      "penilai": [
+        "Hafizh"
+      ],
+      "catatan": ""
+    },
+    "39": {
+      "kelas": null,
+      "yakin": "yakin",
+      "alasan": "Cluster ini jelas dikelompokkan berdasarkan kemiripan tutupan lahan (hutan lebat dan jalan/sungai pedesaan) dengan variasi sensor dan kondisi post yang beragam tanpa satu pola kerusakan bencana yang seragam.",
+      "penilai": [
+        "Seno"
+      ],
+      "catatan": "campur: tidak dipakai sebagai label latih"
+    }
+  }
+}

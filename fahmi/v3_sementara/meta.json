@@ -1,0 +1,69 @@
+{
+  "versi": "v3_sementara",
+  "oleh": "Fahmi",
+  "tanggal": "2026-11-28 03:02",
+  "status": "sementara",
+  "keterangan": "Pemetaan SEMENTARA untuk submission percobaan, dibuat sebelum diskusi tim atas baris 'perlu diskusi'. Aturan pemetaan ditetapkan Fahmi sebelum submission dan tidak disetel dari skor leaderboard. Nama cluster berasal dari penamaan manual tim dari montase (FAQ no. 7); AI hanya membuat kode.",
+  "aturan": "kelas_cluster = kelas_1 (penilai 1) untuk semua cluster, kecuali cluster campur [21, 39] yang diberi kelas kosong (null, tidak dipakai sebagai label latih); yakin_cluster = yakin_1",
+  "cluster_campur_kosong": [
+    21,
+    39
+  ],
+  "input": {
+    "clustering": "fahmi/v3 (dikunci 2026-11-28 00:03, sha1 event_id 9517d553f3ad1ea535c7175b7a60f3c85bba2652)",
+    "lembar": "fahmi/v3/lembar_penamaan.csv",
+    "lembar_sha1": "8812476eb452d195dcbdf480c3850703b99badd4",
+    "pencocokan_final": "fahmi/v3/pca.joblib + mean_x.npy + centroids.npy"
+  },
+  "pengaturan": {
+    "metode": "spectral",
+    "affinity": "nearest_neighbors",
+    "assign_labels": "cluster_qr",
+    "K": 40,
+    "knn": 15,
+    "pca": 64,
+    "round": 4,
+    "seed": 42,
+    "noise_skala": 0.001
+  },
+  "kesepakatan_cek_silang": {
+    "n": 10,
+    "sama": 3,
+    "kappa": 0.186
+  },
+  "distribusi": {
+    "Earthquake": {
+      "n_cluster": 11,
+      "n_foto": 828
+    },
+    "Explosion": {
+      "n_cluster": 3,
+      "n_foto": 336
+    },
+    "Fire": {
+      "n_cluster": 4,
+      "n_foto": 373
+    },
+    "Hurricane": {
+      "n_cluster": 10,
+      "n_foto": 842
+    },
+    "Tsunami": {
+      "n_cluster": 3,
+      "n_foto": 115
+    },
+    "Volcano": {
+      "n_cluster": 7,
+      "n_foto": 463
+    },
+    "(kosong)": {
+      "n_cluster": 2,
+      "n_foto": 223
+    }
+  },
+  "rencana_model_final": {
+    "classifier": "Seno melatih classifier dari events.parquet: target kelas_cluster, bobot sampel kedekatan",
+    "notebook_final": "Mencocokkan cluster dengan pca.joblib + mean_x.npy + centroids.npy (tanpa fit ulang, tanpa clustering)",
+    "dictionary_nama": "Dictionary event_id -> kelas (cluster_names.json) ditulis eksplisit di notebook final (FAQ no. 7)"
+  }
+}
