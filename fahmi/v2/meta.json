@@ -1,0 +1,155 @@
+{
+  "versi": "v2",
+  "oleh": "Fahmi",
+  "tanggal": "2026-11-27 22:45",
+  "input": {
+    "fitur": "hafizh/v3.1",
+    "phys": "hafizh/v3.1/phys_v4.parquet",
+    "embedding": "dino_color_pre + dino_color_post (DINOv2-L FP32, cabang warna)",
+    "meta_A": {
+      "backbone": "vit_large_patch14_dinov2.lvd142m",
+      "img_size": 308,
+      "tta": "D4_8x",
+      "precision": "fp32",
+      "ambang_color_shift": 24.0
+    }
+  },
+  "pengaturan": {
+    "metode": "spectral",
+    "K": 20,
+    "pca": 64,
+    "knn": 15,
+    "seed": 42,
+    "round": 4,
+    "assign_labels": "cluster_qr",
+    "k_kasar": 8,
+    "noise_skala": 0.001,
+    "min_warna": 15,
+    "n_split_rel": 20,
+    "n_boot": 200,
+    "yakin_min": 0.6,
+    "core_frac_kuat": 0.5,
+    "core_frac_lemah": 0.2,
+    "min_core_kelas": 30,
+    "pca_variansi": 0.8159
+  },
+  "gate": {
+    "ari_noise": 0.9922,
+    "ari_knn25": 0.8636,
+    "bias_max": 0.1108,
+    "bias_max_kolom": "scanline_score (pre+post)",
+    "min_size": 40,
+    "bias_per_artefak": {
+      "is_gray (pre+post)": 0.0327,
+      "black_frac (pre+post)": 0.024,
+      "scanline_score (pre+post)": 0.1108,
+      "color_shift": 0.0301,
+      "|brightness post-pre|": 0.0131
+    },
+    "lulus": true
+  },
+  "ari_vs_v1": {
+    "event_id": 0.9949,
+    "coarse_id": 0.9969
+  },
+  "rules": {
+    "desain": "D2b",
+    "status": "dikunci",
+    "dikunci_pada": "2026-11-27 22:36"
+  },
+  "sumbu": {
+    "kota": "edge_pre",
+    "sebaran": "spatial_entropy",
+    "tekstur": "d_entropy",
+    "gelap": "d_dark",
+    "arah": "com_shift",
+    "air_pre": "water_rel_pre"
+  },
+  "bobot_sumbu": {
+    "kota": 0.9867,
+    "sebaran": 0.9339,
+    "tekstur": 0.2457,
+    "gelap": 0.5719,
+    "arah": 0.7138,
+    "air_pre": 0.5733
+  },
+  "distribusi_kelas": {
+    "Earthquake": {
+      "n_cluster": 2,
+      "n_foto": 141
+    },
+    "Explosion": {
+      "n_cluster": 4,
+      "n_foto": 672
+    },
+    "Fire": {
+      "n_cluster": 1,
+      "n_foto": 112
+    },
+    "Hurricane": {
+      "n_cluster": 4,
+      "n_foto": 681
+    },
+    "Tsunami": {
+      "n_cluster": 6,
+      "n_foto": 1226
+    },
+    "Volcano": {
+      "n_cluster": 3,
+      "n_foto": 348
+    }
+  },
+  "n_cluster_lemah": 4,
+  "pemindahan_kelas_kosong": [
+    {
+      "event_id": 4,
+      "dari": "Volcano",
+      "ke": "Fire",
+      "pengorbanan": 0.1082
+    }
+  ],
+  "is_core_per_kelas": {
+    "Earthquake": 58,
+    "Explosion": 278,
+    "Fire": 34,
+    "Hurricane": 340,
+    "Tsunami": 550,
+    "Volcano": 174
+  },
+  "penyesuaian_porsi_core": [
+    {
+      "kelas": "Fire",
+      "porsi_baru": {
+        "4": 0.3
+      },
+      "n_core": 34
+    }
+  ],
+  "ketahanan_sumbu": {
+    "kota": 10,
+    "sebaran": 8,
+    "tekstur": 1,
+    "gelap": 4,
+    "arah": 6,
+    "air_pre": 4
+  },
+  "alasan_pembaruan_v2": [
+    "v1: is_core hanya mencakup 2 kelas (Explosion, Tsunami), sehingga classifier tidak bisa dilatih 6 kelas",
+    "v1: Hurricane dan Volcano punya rumus keluarga 2 identik sehingga tidak bisa dibedakan",
+    "v1: di cluster tanpa data warna, seluruh keluarga 1 dibuang termasuk indikator struktur",
+    "v1: indikator patch hampir satu sumbu; aturan Explosion memakai dua indikator berlawanan (top10_share vs radial_decay, r = -0,82)",
+    "v1: kelas dengan sedikit indikator lebih sering menang; ambang margin tetap 0,5 tidak sesuai skala skor",
+    "v1: d_exg_v4 tidak punya sinyal di level cluster (reliabilitas split-half ~ 0)"
+  ],
+  "keterangan_ai": "Aturan rules.json v2 (D2b) diturunkan dari deskripsi resmi kelas panitia dengan bantuan AI (Claude), dikunci oleh Fahmi, dan dijalankan seluruhnya oleh kode. Bobot, z-score, dan keyakinan dihitung otomatis dari data tanpa label.",
+  "versi_lib": {
+    "python": "3.12.7",
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "pyarrow": "26.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.10.9"
+  },
+  "catatan": "Penamaan dari rules.json v2 (dikunci Fahmi), tanpa label manual. Input hafizh/v3.1 (DINOv2-L FP32)."
+}

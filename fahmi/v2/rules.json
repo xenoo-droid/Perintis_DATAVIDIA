@@ -1,0 +1,26 @@
+{
+  "versi": "v2",
+  "status": "dikunci",
+  "dikunci_oleh": "Fahmi",
+  "dikunci_pada": "2026-11-27 22:36",
+  "desain": "D2b",
+  "sumber": "Diturunkan dari deskripsi resmi kelas panitia dengan bantuan AI (Claude); dijalankan seluruhnya oleh kode",
+  "kelas": {
+    "Fire":       {"gelap": 1, "kota": -1},
+    "Volcano":    {"tekstur": -1, "sebaran": 1},
+    "Tsunami":    {"air_pre": 1, "arah": 1},
+    "Hurricane":  {"sebaran": 1, "kota": -1, "gelap": -1},
+    "Earthquake": {"kota": 1, "sebaran": 1},
+    "Explosion":  {"kota": 1, "sebaran": -1}
+  },
+  "alasan": {
+    "Fire": "Area terbakar gelap; terjadi di vegetasi/lahan, umumnya bukan kota padat",
+    "Volcano": "Material vulkanik menutupi permukiman dan lahan: permukaan tertutup rata, area luas",
+    "Tsunami": "Gelombang laut menggenangi daratan dan mengubah garis pantai: lokasi pesisir, perubahan dari satu sisi",
+    "Hurricane": "Merontokkan vegetasi dan merusak struktur secara tersebar: tersebar, area bervegetasi, tidak menggelap",
+    "Earthquake": "Kerusakan membentang luas pada struktur",
+    "Explosion": "Merusak area di sekitar titik kejadian secara radial: kerusakan terpusat"
+  },
+  "skor": "skor_kelas = jumlah(tanda × z_sumbu × bobot_sumbu) / jumlah(bobot_sumbu), sumbu NaN dilewati; lalu setiap kolom skor kelas di-z-score (biasa) antar cluster; kelas = argmax",
+  "keyakinan": "bootstrap N_BOOT; cluster lemah jika keyakinan < YAKIN_MIN"
+}
