@@ -1,0 +1,117 @@
+{
+  "versi": "v1",
+  "oleh": "Fahmi",
+  "tanggal": "2026-11-27 18:30",
+  "input": {
+    "fitur": "hafizh/v2",
+    "phys": "hafizh/v3/phys_v4.parquet",
+    "embedding": "dino_color_pre + dino_color_post (DINOv2-L, cabang warna)"
+  },
+  "pengaturan": {
+    "metode": "spectral",
+    "K": 20,
+    "pca": 64,
+    "knn": 15,
+    "seed": 42,
+    "round": 4,
+    "assign_labels": "cluster_qr",
+    "k_kasar": 8,
+    "core_frac": 0.5,
+    "min_warna": 15,
+    "margin_lemah": 0.5,
+    "noise_skala": 0.001,
+    "pca_variansi": 0.8159
+  },
+  "gate": {
+    "ari_noise": 0.9875,
+    "ari_knn25": 0.8603,
+    "bias_max": 0.1129,
+    "bias_max_kolom": "scanline_score (pre+post)",
+    "min_size": 40,
+    "bias_per_artefak": {
+      "is_gray (pre+post)": 0.0328,
+      "black_frac (pre+post)": 0.0245,
+      "scanline_score (pre+post)": 0.1129,
+      "color_shift": 0.0297,
+      "|brightness post-pre|": 0.013
+    },
+    "lulus": true
+  },
+  "rules": {
+    "status": "dikunci",
+    "dikunci_pada": "2026-11-27 18:28"
+  },
+  "kesepakatan_keluarga": {
+    "porsi": 0.2143,
+    "n_sepakat": 3,
+    "n_cluster_dibandingkan": 14,
+    "n_hanya_keluarga_2": 6
+  },
+  "konsistensi_kasar": {
+    "n_kelas_per_coarse": [
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      3,
+      2
+    ],
+    "porsi_dominan_rata2": 0.6545
+  },
+  "hanya_keluarga_2": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6
+  ],
+  "pemindahan_kelas_kosong": [
+    {
+      "event_id": 3,
+      "dari": "Fire",
+      "ke": "Hurricane",
+      "pengorbanan": 0.0155
+    }
+  ],
+  "distribusi_kelas": {
+    "Earthquake": {
+      "n_cluster": 2,
+      "n_foto": 158
+    },
+    "Explosion": {
+      "n_cluster": 6,
+      "n_foto": 887
+    },
+    "Fire": {
+      "n_cluster": 3,
+      "n_foto": 369
+    },
+    "Hurricane": {
+      "n_cluster": 1,
+      "n_foto": 112
+    },
+    "Tsunami": {
+      "n_cluster": 7,
+      "n_foto": 1481
+    },
+    "Volcano": {
+      "n_cluster": 1,
+      "n_foto": 173
+    }
+  },
+  "n_cluster_lemah": 16,
+  "n_is_core": 347,
+  "versi_lib": {
+    "python": "3.12.7",
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "pyarrow": "26.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.10.9"
+  },
+  "catatan": "Penamaan dari rules.json (dikunci Fahmi), tanpa label manual. Embedding v2 masih fp16_autocast."
+}
