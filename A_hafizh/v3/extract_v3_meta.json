@@ -1,0 +1,22 @@
+{
+  "model": "facebook/dinov3-vitl16-pretrain-sat493m",
+  "patch_size": 16,
+  "n_prefix": 5,
+  "img_size": 256,
+  "dim": 1024,
+  "mean": [
+    0.43,
+    0.411,
+    0.296
+  ],
+  "std": [
+    0.213,
+    0.156,
+    0.143
+  ],
+  "license": "DINOv3 License",
+  "seed": 42,
+  "tint_norm_thr": 0.05,
+  "cloud_pool_thr": 0.5,
+  "shared_crop_min_ratio": 0.5
+}
