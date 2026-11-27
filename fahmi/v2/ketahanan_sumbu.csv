@@ -1,0 +1,7 @@
+sumbu,bobot_asli,n_cluster_berubah,cluster_berubah
+kota,0.9867,10,0:Earthquake->Hurricane 1:Hurricane->Earthquake 4:Fire->Volcano 5:Earthquake->Fire 7:Hurricane->Tsunami 11:Explosion->Tsunami 12:Tsunami->Explosion 15:Tsunami->Explosion 17:Tsunami->Fire 18:Tsunami->Explosion
+sebaran,0.9339,8,0:Earthquake->Explosion 4:Fire->Volcano 5:Earthquake->Fire 9:Explosion->Tsunami 10:Explosion->Volcano 11:Explosion->Earthquake 15:Tsunami->Hurricane 16:Explosion->Earthquake
+tekstur,0.2457,1,14:Volcano->Hurricane
+gelap,0.5719,4,4:Fire->Hurricane 7:Hurricane->Fire 8:Hurricane->Fire 19:Hurricane->Tsunami
+arah,0.7138,6,2:Tsunami->Fire 4:Fire->Volcano 9:Explosion->Tsunami 11:Explosion->Tsunami 13:Tsunami->Hurricane 18:Tsunami->Explosion
+air_pre,0.5733,4,4:Fire->Volcano 12:Tsunami->Explosion 15:Tsunami->Hurricane 17:Tsunami->Fire
