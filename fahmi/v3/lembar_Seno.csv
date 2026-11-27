@@ -1,18 +1,18 @@
-﻿event_id,peran,n,montase,montase_norm,kelas,yakin,alasan,catatan
-1,penilai_2,36,montase/cluster_01.jpg,montase/cluster_01_norm.jpg,,,,
-2,penilai_1,46,montase/cluster_02.jpg,montase/cluster_02_norm.jpg,,,,
-5,penilai_2,39,montase/cluster_05.jpg,montase/cluster_05_norm.jpg,,,,
-9,penilai_1,47,montase/cluster_09.jpg,montase/cluster_09_norm.jpg,,,,
-10,penilai_1,66,montase/cluster_10.jpg,montase/cluster_10_norm.jpg,,,,
-12,penilai_1,56,montase/cluster_12.jpg,montase/cluster_12_norm.jpg,,,,
-13,penilai_1,49,montase/cluster_13.jpg,montase/cluster_13_norm.jpg,,,,
-15,penilai_1,83,montase/cluster_15.jpg,montase/cluster_15_norm.jpg,,,,
-19,penilai_1,74,montase/cluster_19.jpg,montase/cluster_19_norm.jpg,,,,
-20,penilai_1,60,montase/cluster_20.jpg,montase/cluster_20_norm.jpg,,,,
-23,penilai_2,101,montase/cluster_23.jpg,montase/cluster_23_norm.jpg,,,,
-25,penilai_1,67,montase/cluster_25.jpg,montase/cluster_25_norm.jpg,,,,
-27,penilai_2,88,montase/cluster_27.jpg,montase/cluster_27_norm.jpg,,,,
-29,penilai_1,95,montase/cluster_29.jpg,montase/cluster_29_norm.jpg,,,,
-30,penilai_1,73,montase/cluster_30.jpg,montase/cluster_30_norm.jpg,,,,
-37,penilai_1,157,montase/cluster_37.jpg,montase/cluster_37_norm.jpg,,,,
-39,penilai_1,137,montase/cluster_39.jpg,montase/cluster_39_norm.jpg,,,,
+﻿event_id;peran;n;montase;montase_norm;kelas;yakin;alasan;catatan
+1;penilai_2;36;montase/cluster_01.jpg;montase/cluster_01_norm.jpg;Tsunami;yakin;Kebanyakan area pada gambar post tergenang.;
+2;penilai_1;46;montase/cluster_02.jpg;montase/cluster_02_norm.jpg;Tsunami;yakin;Ada laut dan pesisir;
+5;penilai_2;39;montase/cluster_05.jpg;montase/cluster_05_norm.jpg;Hurricane;ragu;Pre dan Post tidak terlalu banyak perbedaan bahkan hampir tidak ada;
+9;penilai_1;47;montase/cluster_09.jpg;montase/cluster_09_norm.jpg;Earthquake;yakin;Gambar nya mayoritas pegunungan ditambah pre-post nya hampir tidak berbeda;
+10;penilai_1;66;montase/cluster_10.jpg;montase/cluster_10_norm.jpg;Hurricane;ragu;Ada bangunan yang di post nya terlihat agak rusak;
+12;penilai_1;56;montase/cluster_12.jpg;montase/cluster_12_norm.jpg;Volcano;yakin;Tekstur permukaan kasar;
+13;penilai_1;49;montase/cluster_13.jpg;montase/cluster_13_norm.jpg;Fire;ragu;Terlihat seperti lahan kering tetapi ada warna hijau nya.;
+15;penilai_1;83;montase/cluster_15.jpg;montase/cluster_15_norm.jpg;Hurricane;ragu;Area pada gambar didominasi lahan hijau/perkebunan di perbukitan dengan minim bangunan dan tidak menunjukkan pola kerusakan ekstrem yang jelas pada citra post, selain perubahan warna vegetasi yang agak merata (kemungkinan angin kencang/hujan badai);
+19;penilai_1;74;montase/cluster_19.jpg;montase/cluster_19_norm.jpg;Volcano;yakin;Hampir semua area tertutup abu kelabu merata;
+20;penilai_1;60;montase/cluster_20.jpg;montase/cluster_20_norm.jpg;Earthquake;ragu;Banyak bangunan di area permukiman padat tampak runtuh menjadi puing yang tersebar merata tanpa satu titik pusat kerusakan, sementara sebagian vegetasi masih terlihat utuh.;
+23;penilai_2;101;montase/cluster_23.jpg;montase/cluster_23_norm.jpg;Hurricane;ragu;Area permukiman dekat kanal atau danau tampak mengalami luapan genangan air yang meluas ke halaman dan jalan pada citra post tanpa garis pantai laut maupun kerusakan struktural masif.;
+25;penilai_1;67;montase/cluster_25.jpg;montase/cluster_25_norm.jpg;Earthquake;ragu;Area perkotaan padat ini tidak menunjukkan tanda-tanda banjir, kebakaran, abu, maupun kerusakan vegetasi (pohon tetap hijau utuh), sehingga paling mengarah ke gempa bumi meskipun puing bangunan runtuh kurang terlihat jelas pada resolusi ini.;
+27;penilai_2;88;montase/cluster_27.jpg;montase/cluster_27_norm.jpg;Earthquake;ragu;Area permukiman padat ini tidak menunjukkan tanda banjir, abu, kebakaran, maupun kerusakan vegetasi (pepohonan tetap hijau utuh), sehingga paling mengarah ke gempa bumi meskipun detail puing bangunan runtuh kurang terlihat jelas pada resolusi ini;
+29;penilai_1;95;montase/cluster_29.jpg;montase/cluster_29_norm.jpg;Earthquake;ragu;Area permukiman dan lahan pertanian ini tidak menunjukkan tanda kebakaran, abu vulkanik, garis pantai, maupun kerusakan vegetasi yang luas (pepohonan tetap hijau utuh), sehingga paling mengarah ke gempa bumi meskipun puing bangunan tidak terlihat jelas pada resolusi ini.;
+30;penilai_1;73;montase/cluster_30.jpg;montase/cluster_30_norm.jpg;Earthquake;ragu;Area perkotaan padat ini tidak memiliki garis pantai, jejak hangus, maupun lapisan abu, sementara pepohonan tetap hijau utuh tanpa kerusakan vegetasi yang mencolok.;
+37;penilai_1;157;montase/cluster_37.jpg;montase/cluster_37_norm.jpg;Hurricane;yakin;Tata letak permukiman suburban (rumah tapak berhalaman dan taman rumah mobil) yang banyak ditumbuhi pohon menunjukkan sedikit penipisan/perubahan warna vegetasi serta tutupan awan pada citra post, yang sangat khas untuk wilayah terdampak badai.;
+39;penilai_1;137;montase/cluster_39.jpg;montase/cluster_39_norm.jpg;Campur;yakin;Cluster ini jelas dikelompokkan berdasarkan kemiripan tutupan lahan (hutan lebat dan jalan/sungai pedesaan) dengan variasi sensor dan kondisi post yang beragam tanpa satu pola kerusakan bencana yang seragam.;
