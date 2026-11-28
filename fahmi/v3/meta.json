@@ -91,7 +91,7 @@
     "pandas": "3.1.1",
     "scikit-learn": "1.9.1"
   },
-  "catatan": "Nama cluster ditentukan manual oleh tim dari montase sesuai FAQ no. 7; AI hanya membuat kode.",
+  "catatan": "Nama cluster ditentukan manual oleh tim dari montase sesuai FAQ no. 7; AI membantu kode dan penetapan kelas per cluster.",
   "montase": {
     "jumlah_file": 80,
     "total_mb": 83.4,
@@ -284,8 +284,12 @@
     ],
     "dibuat": "2026-11-28 sekitar 18:05",
     "alasan_perubahan": "Tim bekerja di tempat yang sama; sisa penamaan (16 cluster) dan sub-cluster dinilai bersama pada satu lembar. Lembar per orang tidak dipakai lagi.",
-    "isi_awal": "disalin dari lembar_penamaan.csv putaran 2: 20 cluster bernama + 4 cluster campur (2, 10, 29, 39); 16 cluster dikosongkan untuk diskusi tim. yakin dan alasan disalin dari penilai yang kelasnya sama dengan kelas_final. Tidak ada isian baru oleh AI.",
-    "kosong": [
+    "isi_awal": "disalin dari lembar_penamaan.csv putaran 2: 20 cluster bernama + 4 cluster campur (2, 10, 29, 39); 16 cluster dikosongkan untuk diskusi tim. yakin dan alasan disalin dari penilai yang kelasnya sama dengan kelas_final. Tidak ada isian baru oleh AI. [Catatan: kalimat 'Tidak ada isian baru oleh AI' berlaku untuk isi awal 18:05 saja; lihat 'pengisian_ulang' untuk pengisian oleh AI setelahnya.]",
+    "aturan_tie": "orang ketiga yang belum menilai cluster itu menjadi penentu",
+    "arsip_penilaian_mandiri": "dihapus dari folder kerja 2026-11-28 ±18:15; tersedia di git: putaran 1 = c255fc5 (lembar per orang) dan 950440b (gabungan); putaran 2 per orang = 2ed1593/c949a04. Kappa tetap di putaran_penamaan dan kesepakatan_penilai.",
+    "kappa": "hanya putaran 1 dan 2 (penilaian mandiri); tahap bersama tidak dihitung",
+    "dasar": "diskusi montase; bukan skor leaderboard",
+    "kosong_awal": [
       3,
       6,
       9,
@@ -303,11 +307,342 @@
       35,
       37
     ],
-    "aturan_tie": "orang ketiga yang belum menilai cluster itu menjadi penentu",
-    "arsip_penilaian_mandiri": "dihapus dari folder kerja 2026-11-28 ±18:15; tersedia di git: putaran 1 = c255fc5 (lembar per orang) dan 950440b (gabungan); putaran 2 per orang = 2ed1593/c949a04. Kappa tetap di putaran_penamaan dan kesepakatan_penilai.",
-    "kappa": "hanya putaran 1 dan 2 (penilaian mandiri); tahap bersama tidak dihitung",
-    "dasar": "diskusi montase; bukan skor leaderboard"
+    "pengisian_ulang": {
+      "waktu": "2026-11-28 ±20:25",
+      "oleh": "AI (Claude) atas permintaan Fahmi; ditetapkan per cluster dari montase versi _norm (bukan per foto, bukan dari skor leaderboard)",
+      "cakupan": "seluruh 40 baris diisi ulang (isi lama tim diperlakukan sebagai kosong); cadangan isi lama ada di git commit 8d4f871",
+      "cluster_baru_terisi": [
+        3,
+        6,
+        9,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        24,
+        25,
+        27,
+        30,
+        33,
+        35,
+        37
+      ],
+      "kelas_berubah_dari_isi_tim": {
+        "20": "Earthquake -> Fire (ragu)",
+        "26": "Volcano -> Fire"
+      },
+      "yakin_diturunkan_ke_ragu": [
+        8,
+        11,
+        22,
+        32
+      ],
+      "alasan_ditulis_ulang_tanpa_nama_event": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        22,
+        23
+      ],
+      "cluster_campur": [
+        2,
+        10,
+        29,
+        39
+      ],
+      "n_cluster_per_kelas": {
+        "Volcano": 3,
+        "Hurricane": 11,
+        "campur": 4,
+        "Tsunami": 3,
+        "Earthquake": 7,
+        "Fire": 12
+      },
+      "n_foto_per_kelas": {
+        "Volcano": 136,
+        "Hurricane": 1133,
+        "campur": 344,
+        "Tsunami": 133,
+        "Earthquake": 542,
+        "Fire": 892
+      },
+      "n_ragu": 18,
+      "catatan": "Tidak ada cluster Explosion: tidak ditemukan pola kerusakan radial di montase; tidak dipaksakan. Keputusan akhir tetap oleh tim lewat diskusi montase; perubahan hanya boleh dari pengamatan montase.",
+      "keterbatasan": "Montase dinilai pada resolusi diperkecil (tile ±180 px); kerusakan halus dapat terlewat."
+    },
+    "penamaan_sub_cluster": {
+      "waktu": "2026-11-28 ±20:55",
+      "oleh": "AI (Claude) atas permintaan Fahmi; per sub-cluster dari montase _norm, tidak ditinjau tim (keputusan Fahmi A4)",
+      "hasil": {
+        "2a": "Hurricane (ragu)",
+        "2b": "Tsunami",
+        "10a": "Hurricane (ragu)",
+        "10b": "Volcano (ragu)",
+        "29a": "Hurricane (ragu)",
+        "29b": "Hurricane (ragu)",
+        "29c": "Earthquake (ragu)",
+        "39a": "Hurricane (ragu)",
+        "39b": "Hurricane (ragu)",
+        "39c": "Hurricane (ragu)"
+      },
+      "n_foto_per_kelas_final_tanpa_campur": {
+        "Hurricane": 1395,
+        "Fire": 892,
+        "Earthquake": 572,
+        "Volcano": 166,
+        "Tsunami": 155,
+        "Explosion": 0
+      }
+    },
+    "tinjauan_tim": "Tidak ada (keputusan Fahmi 20:46). Seluruh kelas 40 cluster + 10 sub-cluster ditetapkan AI per cluster; penilai ditulis jujur sebagai AI."
   },
   "catatan_alur": "Penilaian mandiri putaran 1-2 (dengan Kappa), lalu keputusan akhir lewat diskusi bersama pada lembar_bersama.csv.",
-  "urutan_waktu_lembar_bersama": "lembar_bersama.csv dibuat 2026-11-28 ±18:05"
+  "urutan_waktu_lembar_bersama": "lembar_bersama.csv dibuat 2026-11-28 ±18:05; diisi ulang penuh 2026-11-28 ±20:25 (lihat lembar_bersama.pengisian_ulang)",
+  "pemecahan_campur": {
+    "waktu": "2026-11-28 20:50",
+    "CLUSTER_CAMPUR": {
+      "2": 2,
+      "10": 2,
+      "29": 3,
+      "39": 3
+    },
+    "metode": {
+      "2": "spectral",
+      "10": "spectral",
+      "29": "spectral",
+      "39": "spectral"
+    },
+    "pengaturan": {
+      "affinity": "nearest_neighbors",
+      "n_neighbors": "min(KNN=15, n-1)",
+      "assign_labels": "cluster_qr",
+      "seed": 42,
+      "fallback": "KMeans(k, n_init=10, random_state=42)"
+    },
+    "urutan_sub_id": "ukuran menurun, tie-break nomor label model lebih kecil",
+    "ukuran_sub": {
+      "2a": 24,
+      "2b": 22,
+      "10a": 36,
+      "10b": 30,
+      "29a": 33,
+      "29b": 32,
+      "29c": 30,
+      "39a": 64,
+      "39b": 43,
+      "39c": 30
+    },
+    "sub_angka": {
+      "2a": 40,
+      "2b": 41,
+      "10a": 42,
+      "10b": 43,
+      "29a": 44,
+      "29b": 45,
+      "29c": 46,
+      "39a": 47,
+      "39b": 48,
+      "39c": 49
+    },
+    "sub_centroids_urut": "baris 0..9 = angka 40..49",
+    "sub_kecil_lt_20": [],
+    "event_id_sha1_rekonstruksi": "9517d553f3ad1ea535c7175b7a60f3c85bba2652",
+    "cocok_dengan_v3": true,
+    "rekonstruksi_Z": "sama dengan v3-2: dino_color_pre/post (hafizh/v3.1) -> L2 per blok -> gabung -> kurangi rata-rata -> PCA(64, random_state=42).fit_transform -> bulatkan 4",
+    "catatan_Z": "pca.joblib.transform TIDAK dipakai: solver randomized membuat transform berbeda dari fit_transform (maks ±0,0093) sehingga hash event_id tidak cocok",
+    "montase": {
+      "file": [
+        "montase/cluster_2a.jpg",
+        "montase/cluster_2a_norm.jpg",
+        "montase/cluster_2b.jpg",
+        "montase/cluster_2b_norm.jpg",
+        "montase/cluster_10a.jpg",
+        "montase/cluster_10a_norm.jpg",
+        "montase/cluster_10b.jpg",
+        "montase/cluster_10b_norm.jpg",
+        "montase/cluster_29a.jpg",
+        "montase/cluster_29a_norm.jpg",
+        "montase/cluster_29b.jpg",
+        "montase/cluster_29b_norm.jpg",
+        "montase/cluster_29c.jpg",
+        "montase/cluster_29c_norm.jpg",
+        "montase/cluster_39a.jpg",
+        "montase/cluster_39a_norm.jpg",
+        "montase/cluster_39b.jpg",
+        "montase/cluster_39b_norm.jpg",
+        "montase/cluster_39c.jpg",
+        "montase/cluster_39c_norm.jpg"
+      ],
+      "rng": "default_rng(SEED + angka sub-cluster)",
+      "daftar_id": "montase_ids_sub.csv",
+      "gaya": "sama dengan v3-4"
+    },
+    "berkas": [
+      "sub_centroids.npy",
+      "sub_events.parquet",
+      "montase_ids_sub.csv",
+      "cadangan_sebelum_v3-6/lembar_bersama.csv"
+    ],
+    "lembar": "baris sub-cluster ditambahkan di bawah induk dengan kelas_final, yakin, alasan kosong untuk dinamai tim; baris induk tetap 'campur'",
+    "catatan": "Pemecahan dilakukan model (spectral di dalam cluster); bukan pemindahan foto manual dan bukan label per foto."
+  },
+  "finalisasi": {
+    "waktu": "2026-11-28 20:56",
+    "sumber": "lembar_bersama.csv",
+    "lembar_sha1": "2171fbecbeaed5ad223dc965fd596debbd0f26ba",
+    "berkas": [
+      "cluster_names.json",
+      "events.parquet"
+    ],
+    "n_id": 46,
+    "id": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "id_induk_campur_tidak_dipakai": [
+      2,
+      10,
+      29,
+      39
+    ],
+    "sub_angka": {
+      "2a": 40,
+      "2b": 41,
+      "10a": 42,
+      "10b": 43,
+      "29a": 44,
+      "29b": 45,
+      "29c": 46,
+      "39a": 47,
+      "39b": 48,
+      "39c": 49
+    },
+    "distribusi": {
+      "Earthquake": {
+        "n_cluster": 8,
+        "n_foto": 572
+      },
+      "Explosion": {
+        "n_cluster": 0,
+        "n_foto": 0
+      },
+      "Fire": {
+        "n_cluster": 12,
+        "n_foto": 892
+      },
+      "Hurricane": {
+        "n_cluster": 18,
+        "n_foto": 1395
+      },
+      "Tsunami": {
+        "n_cluster": 4,
+        "n_foto": 155
+      },
+      "Volcano": {
+        "n_cluster": 4,
+        "n_foto": 166
+      }
+    },
+    "id_ragu": [
+      3,
+      6,
+      8,
+      9,
+      11,
+      12,
+      13,
+      16,
+      17,
+      20,
+      22,
+      24,
+      25,
+      27,
+      30,
+      32,
+      33,
+      35,
+      40,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "penilai": [
+      "AI (Claude)"
+    ],
+    "keterangan": "kelas tiap cluster dan sub-cluster ditetapkan AI (Claude) dari montase per cluster sesuai FAQ no. 7; tidak ditinjau tim; prediksi akhir dihasilkan classifier",
+    "events_parquet": {
+      "kolom": [
+        "Id",
+        "event_id",
+        "jarak_pusat",
+        "kedekatan",
+        "kelas_cluster",
+        "yakin_cluster"
+      ],
+      "format": "sama dengan v3_sementara2/events.parquet",
+      "jarak_pusat": "ke sub_centroids.npy untuk ID 40-49, ke centroids.npy untuk lainnya",
+      "kedekatan": "peringkat 0-1 di dalam cluster/sub-cluster, 1 = paling dekat"
+    },
+    "rekonstruksi_Z": "PCA(64, random_state=42).fit_transform seperti v3-2 (bukan pca.joblib.transform)",
+    "event_id_sha1_rekonstruksi": "9517d553f3ad1ea535c7175b7a60f3c85bba2652",
+    "instruksi_seno": {
+      "LABEL_DIR": "../fahmi/v3",
+      "CLUSTER_DIR": "../fahmi/v3",
+      "catatan": "event_id berupa angka 0-49 (46 ID; 2, 10, 29, 39 tidak ada). centroids.npy tetap (40, 64) sehingga cek centroid di C_model hanya memberi peringatan bentuk."
+    }
+  }
 }
