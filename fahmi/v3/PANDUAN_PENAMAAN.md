@@ -2,7 +2,7 @@
 
 Dasar: FAQ panitia no. 7 — cluster dibuat model, **nama diberikan manual oleh tim per cluster** dari pengamatan citra,
 pemetaan ditulis eksplisit di notebook, alasannya dijelaskan di write-up. Label per foto dilarang (no. 6).
-AI tidak boleh dipakai untuk menamai cluster (no. 4).
+AI boleh membantu menetapkan kelas tiap cluster (per cluster, bukan per foto); AI tidak boleh membuat submission langsung.
 
 ## File
 - **`lembar_bersama.csv` — satu-satunya lembar kerja.** Dinilai bersama oleh tim. Kolom: `event_id, n, montase, kelas_final, yakin, alasan`.
@@ -95,6 +95,6 @@ Cadangan kalau waktu mepet: beri tiap cluster campur **satu kelas dominan** lang
 ## Aturan
 - **Satu keputusan per cluster.** Tidak ada label per foto, termasuk "foto ini beda, kelasnya X".
 - Nilai hanya dari citra di montase. Jangan mencari Id/citra di internet (reverse image search, lokasi kejadian, dsb.).
-- **Jangan** meminta AI (ChatGPT, Claude, Gemini, CLIP, dsb.) menamai cluster atau menilai montase, dan jangan mengunggah montase ke AI.
+- **Jangan** memakai CLIP/model berbasis prompt, atau AI, untuk melabeli foto satu per satu atau membuat prediksi langsung. AI boleh membantu menilai montase dan menetapkan kelas per cluster; catat bantuannya untuk write-up.
 - **Jangan** mengubah nama cluster karena skor leaderboard atau karena distribusi kelas yang dihasilkan.
 - Perubahan nama setelah diisi hanya lewat diskusi tim berdasarkan pengamatan montase, dan alasannya diperbarui di kolom `alasan`.

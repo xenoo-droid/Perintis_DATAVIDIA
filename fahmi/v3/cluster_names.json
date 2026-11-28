@@ -1,0 +1,380 @@
+{
+  "0": {
+    "kelas": "Volcano",
+    "yakin": "yakin",
+    "alasan": "Pada sebagian besar pasangan, perbukitan bervegetasi dan permukiman kecil di pre tertutup lapisan kelabu seperti abu dan kabut tebal yang merata di post.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "1": {
+    "kelas": "Hurricane",
+    "yakin": "yakin",
+    "alasan": "Padang rumput dan pepohonan pedalaman di pre tergenang air gelap secara luas di post, jauh dari garis pantai, tanpa tanda hangus.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "3": {
+    "kelas": "Volcano",
+    "yakin": "ragu",
+    "alasan": "Pada sebagian besar pasangan, lahan dan bangunan di pre tertutup permukaan kelabu-gelap bertekstur kasar di post; perubahan sebagian samar.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "4": {
+    "kelas": "Tsunami",
+    "yakin": "yakin",
+    "alasan": "Kawasan pesisir dengan garis pantai berubah, air keruh masuk ke daratan, dan bangunan tepi pantai hilang tersapu di post.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "5": {
+    "kelas": "Earthquake",
+    "yakin": "yakin",
+    "alasan": "Kawasan kota padat dengan blok bangunan beton rapat; di post sebagian bangunan menjadi puing tersebar tanpa satu pusat kerusakan.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "6": {
+    "kelas": "Volcano",
+    "yakin": "ragu",
+    "alasan": "Lahan pertanian dan lereng di pre tertutup lapisan kelabu bertekstur kasar yang menyamarkan petak dan jalan di post.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "7": {
+    "kelas": "Hurricane",
+    "yakin": "yakin",
+    "alasan": "Permukiman berhutan lebat; di post kanopi pohon menipis dan berubah kecokelatan, disertai kerusakan atap yang tersebar merata.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "8": {
+    "kelas": "Tsunami",
+    "yakin": "ragu",
+    "alasan": "Hampir semua pasangan didominasi permukaan air keruh yang menutupi daratan di post, tanpa permukiman atau hutan yang tersisa terlihat.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "9": {
+    "kelas": "Fire",
+    "yakin": "ragu",
+    "alasan": "Lereng kering bersemak di pre; di post semak menghilang dan lereng menjadi gelap kelabu, batas perubahan cukup tegas.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "11": {
+    "kelas": "Tsunami",
+    "yakin": "ragu",
+    "alasan": "Kawasan rawa dan laguna pesisir; di post genangan air meluas ke daratan dan batas daratan-air bergeser.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "12": {
+    "kelas": "Fire",
+    "yakin": "ragu",
+    "alasan": "Lahan pertanian datar; di post sejumlah petak berubah gelap dan gersang dibanding pre, perubahan pada sebagian pasangan samar.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "13": {
+    "kelas": "Fire",
+    "yakin": "ragu",
+    "alasan": "Sabana dan semak; di post muncul bercak gelap dan permukaan gersang di beberapa pasangan, banyak citra terganggu scanline dan grayscale.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "14": {
+    "kelas": "Earthquake",
+    "yakin": "yakin",
+    "alasan": "Kawasan apartemen bertingkat yang padat; di post beberapa gedung runtuh secara lokal sementara pepohonan tetap utuh.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "15": {
+    "kelas": "Fire",
+    "yakin": "yakin",
+    "alasan": "Perbukitan kebun dan desa; di post vegetasi lereng menjadi gelap kelabu hangus dengan batas tegas, jalan dan rumah masih terlihat.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "16": {
+    "kelas": "Hurricane",
+    "yakin": "ragu",
+    "alasan": "Mosaik sawah, kebun, dan sungai tropis; di post sebagian lahan tergenang dan vegetasi menipis secara tersebar.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "17": {
+    "kelas": "Fire",
+    "yakin": "ragu",
+    "alasan": "Ladang kering dan pertanian terbuka; di post beberapa petak dan jalur berubah gelap seperti bekas terbakar.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "18": {
+    "kelas": "Hurricane",
+    "yakin": "yakin",
+    "alasan": "Kanopi hutan tropis lebat; di post muncul bercak kecokelatan dan kemerahan yang tersebar luas, menandakan daun rontok dan pohon rusak.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "19": {
+    "kelas": "Fire",
+    "yakin": "yakin",
+    "alasan": "Permukiman yang rumahnya di post tinggal fondasi abu putih-kelabu dan lahan sekitarnya menghitam, sementara jaringan jalan tetap terlihat jelas.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "20": {
+    "kelas": "Fire",
+    "yakin": "ragu",
+    "alasan": "Permukiman grid padat berpepohonan; di beberapa pasangan post blok rumah berubah kelabu berabu dan pohon hilang, sebagian lain tampak utuh.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "21": {
+    "kelas": "Hurricane",
+    "yakin": "yakin",
+    "alasan": "Hutan perbukitan tropis; di post pohon tumbang atau rontok dan kanopi berubah kecokelatan secara meluas tanpa pola hangus pekat.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "22": {
+    "kelas": "Fire",
+    "yakin": "ragu",
+    "alasan": "Petak ladang dan perkebunan; di post beberapa petak berubah kelabu gersang atau gelap dibanding pre.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "23": {
+    "kelas": "Hurricane",
+    "yakin": "yakin",
+    "alasan": "Permukiman berkanal dan kolam; di post vegetasi kecokelatan, puing, dan atap rusak tersebar merata serta badan air lebih gelap.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "24": {
+    "kelas": "Hurricane",
+    "yakin": "ragu",
+    "alasan": "Mosaik kebun dan hutan tropis berbukit; di post vegetasi menipis dan rusak tersebar, perubahan pada sebagian pasangan samar.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "25": {
+    "kelas": "Earthquake",
+    "yakin": "ragu",
+    "alasan": "Kota padat beratap merah dengan jalan layang; di post sebagian kecil bangunan tampak menjadi puing, tanpa genangan atau hangus.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "26": {
+    "kelas": "Fire",
+    "yakin": "yakin",
+    "alasan": "Permukiman di lereng bersemak; di post lereng sekitar rumah menghitam dan kelabu hangus dengan batas tegas, jalan tetap terlihat.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "27": {
+    "kelas": "Earthquake",
+    "yakin": "ragu",
+    "alasan": "Kota padat beratap seng; di post sebagian blok bangunan rata menjadi puing tersebar, tanpa genangan luas atau hangus.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "28": {
+    "kelas": "Fire",
+    "yakin": "yakin",
+    "alasan": "Tutupan vegetasi hijau pada perbukitan di pre berubah menjadi lahan gelap berabu dan gersang di post dengan batas tegas.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "30": {
+    "kelas": "Earthquake",
+    "yakin": "ragu",
+    "alasan": "Permukiman kota padat beratap merah berpepohonan; perubahan di post samar, diputuskan dari konteks kota padat tanpa genangan atau hangus.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "31": {
+    "kelas": "Earthquake",
+    "yakin": "yakin",
+    "alasan": "Permukiman kota padat dengan blok bangunan rapat; di post terlihat puing dan bangunan rusak tersebar tanpa satu pusat.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "32": {
+    "kelas": "Fire",
+    "yakin": "ragu",
+    "alasan": "Desa dan lahan kering; di post lahan di sekitar bangunan berubah gelap kecokelatan secara luas dengan batas cukup tegas.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "33": {
+    "kelas": "Earthquake",
+    "yakin": "ragu",
+    "alasan": "Kawasan kota dan industri dengan jalan raya; di post beberapa bangunan tampak rusak atau menjadi lahan puing, tanpa genangan atau hangus.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "34": {
+    "kelas": "Hurricane",
+    "yakin": "yakin",
+    "alasan": "Permukiman berkanal dan kolam retensi; di post vegetasi dan atap rusak tersebar serta badan air lebih gelap dan meluas.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "35": {
+    "kelas": "Hurricane",
+    "yakin": "ragu",
+    "alasan": "Hutan dan semak tropis dengan ladang; di post vegetasi rontok kemerahan dan beberapa pohon gundul secara tersebar.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "36": {
+    "kelas": "Fire",
+    "yakin": "yakin",
+    "alasan": "Vegetasi dan lahan di pre berubah menjadi area hangus gelap dengan garis batas kebakaran yang jelas di post.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "37": {
+    "kelas": "Hurricane",
+    "yakin": "yakin",
+    "alasan": "Permukiman grid bervegetasi; di post atap rusak dan puing tersebar merata di seluruh kawasan.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "38": {
+    "kelas": "Hurricane",
+    "yakin": "yakin",
+    "alasan": "Permukiman bervegetasi lebat; di post vegetasi menipis dan kecokelatan meluas serta kerusakan struktur tersebar.",
+    "penilai": [
+      "AI (Claude)"
+    ]
+  },
+  "40": {
+    "kelas": "Hurricane",
+    "yakin": "ragu",
+    "alasan": "Permukiman tepi kanal dan teluk berdermaga; di post bangunan relatif utuh, badan air lebih gelap dan sebagian vegetasi tepi air rusak tersebar.",
+    "penilai": [
+      "AI (Claude)"
+    ],
+    "sub_id": "2a"
+  },
+  "41": {
+    "kelas": "Tsunami",
+    "yakin": "yakin",
+    "alasan": "Permukiman pesisir padat; di post bangunan di dekat garis pantai rata menjadi puing berwarna terang dan garis pantai terkikis.",
+    "penilai": [
+      "AI (Claude)"
+    ],
+    "sub_id": "2b"
+  },
+  "42": {
+    "kelas": "Hurricane",
+    "yakin": "ragu",
+    "alasan": "Permukiman tropis berpepohonan lebat; di post kanopi menipis dan terganggu tersebar, tanpa genangan pesisir atau bekas hangus yang jelas.",
+    "penilai": [
+      "AI (Claude)"
+    ],
+    "sub_id": "10a"
+  },
+  "43": {
+    "kelas": "Volcano",
+    "yakin": "ragu",
+    "alasan": "Permukiman tropis berpepohonan; di post atap dan kanopi tampak terlapisi material kelabu terang secara merata, tanpa genangan atau hangus.",
+    "penilai": [
+      "AI (Claude)"
+    ],
+    "sub_id": "10b"
+  },
+  "44": {
+    "kelas": "Hurricane",
+    "yakin": "ragu",
+    "alasan": "Desa dan sawah datar; di post vegetasi sekitar rumah rusak kecokelatan dan puing tersebar di seluruh permukiman.",
+    "penilai": [
+      "AI (Claude)"
+    ],
+    "sub_id": "29a"
+  },
+  "45": {
+    "kelas": "Hurricane",
+    "yakin": "ragu",
+    "alasan": "Lahan sawah dan kebun dengan desa; di post sebagian petak tergenang gelap dan vegetasi rusak tersebar, banyak pasangan berubah samar.",
+    "penilai": [
+      "AI (Claude)"
+    ],
+    "sub_id": "29b"
+  },
+  "46": {
+    "kelas": "Earthquake",
+    "yakin": "ragu",
+    "alasan": "Desa padat beratap datar di antara ladang kering bergaris pohon; di post sebagian bangunan rusak tanpa genangan atau hangus.",
+    "penilai": [
+      "AI (Claude)"
+    ],
+    "sub_id": "29c"
+  },
+  "47": {
+    "kelas": "Hurricane",
+    "yakin": "ragu",
+    "alasan": "Hutan lebat dan semak; di post kanopi rontok dan berubah kecokelatan-kemerahan secara tersebar tanpa batas hangus tegas.",
+    "penilai": [
+      "AI (Claude)"
+    ],
+    "sub_id": "39a"
+  },
+  "48": {
+    "kelas": "Hurricane",
+    "yakin": "ragu",
+    "alasan": "Hutan rawa dan tepi danau dekat permukiman; di post kanopi menipis dan kelabu serta badan air lebih luas dan gelap.",
+    "penilai": [
+      "AI (Claude)"
+    ],
+    "sub_id": "39b"
+  },
+  "49": {
+    "kelas": "Hurricane",
+    "yakin": "ragu",
+    "alasan": "Hutan dan permukiman pinggiran; di post pohon tumbang atau menipis dan kerusakan tersebar di sekitar rumah.",
+    "penilai": [
+      "AI (Claude)"
+    ],
+    "sub_id": "39c"
+  }
+}
