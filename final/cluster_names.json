@@ -21,7 +21,8 @@
     "alasan": "Pada sebagian besar pasangan, lahan dan bangunan di pre tertutup permukaan kelabu-gelap bertekstur kasar di post; perubahan sebagian samar.",
     "penilai": [
       "AI (Claude)"
-    ]
+    ],
+    "revisi": "revisi2 2026-11-28 22:55: dikembalikan ke Volcano setelah cek montase warna asli; post menunjukkan permukaan kasar berlobus seperti aliran lava yang menutupi permukiman/lahan"
   },
   "4": {
     "kelas": "Tsunami",
@@ -45,7 +46,8 @@
     "alasan": "Lahan pertanian dan lereng di pre tertutup lapisan kelabu bertekstur kasar yang menyamarkan petak dan jalan di post.",
     "penilai": [
       "AI (Claude)"
-    ]
+    ],
+    "revisi": "revisi2 2026-11-28 22:55: dikembalikan ke Volcano setelah cek montase warna asli; post menunjukkan permukaan kasar berlobus seperti aliran lava yang menutupi permukiman/lahan"
   },
   "7": {
     "kelas": "Hurricane",
@@ -65,11 +67,12 @@
   },
   "9": {
     "kelas": "Fire",
-    "yakin": "ragu",
+    "yakin": "yakin",
     "alasan": "Lereng kering bersemak di pre; di post semak menghilang dan lereng menjadi gelap kelabu, batas perubahan cukup tegas.",
     "penilai": [
       "AI (Claude)"
-    ]
+    ],
+    "revisi": "revisi 2026-11-28 22:45: ditinjau ulang dari montase _norm (AI Claude), disetujui Seno; ragu -> yakin"
   },
   "11": {
     "kelas": "Tsunami",
@@ -145,11 +148,12 @@
   },
   "20": {
     "kelas": "Fire",
-    "yakin": "ragu",
+    "yakin": "yakin",
     "alasan": "Permukiman grid padat berpepohonan; di beberapa pasangan post blok rumah berubah kelabu berabu dan pohon hilang, sebagian lain tampak utuh.",
     "penilai": [
       "AI (Claude)"
-    ]
+    ],
+    "revisi": "revisi 2026-11-28 22:45: ditinjau ulang dari montase _norm (AI Claude), disetujui Seno; ragu -> yakin"
   },
   "21": {
     "kelas": "Hurricane",
@@ -289,12 +293,13 @@
   },
   "40": {
     "kelas": "Hurricane",
-    "yakin": "ragu",
+    "yakin": "yakin",
     "alasan": "Permukiman tepi kanal dan teluk berdermaga; di post bangunan relatif utuh, badan air lebih gelap dan sebagian vegetasi tepi air rusak tersebar.",
     "penilai": [
       "AI (Claude)"
     ],
-    "sub_id": "2a"
+    "sub_id": "2a",
+    "revisi": "revisi 2026-11-28 22:45: ditinjau ulang dari montase _norm (AI Claude), disetujui Seno; ragu -> yakin"
   },
   "41": {
     "kelas": "Tsunami",
@@ -315,13 +320,15 @@
     "sub_id": "10a"
   },
   "43": {
-    "kelas": "Volcano",
+    "kelas": "Hurricane",
     "yakin": "ragu",
     "alasan": "Permukiman tropis berpepohonan; di post atap dan kanopi tampak terlapisi material kelabu terang secara merata, tanpa genangan atau hangus.",
     "penilai": [
       "AI (Claude)"
     ],
-    "sub_id": "10b"
+    "sub_id": "10b",
+    "kelas_sebelum": "Volcano",
+    "revisi": "revisi 2026-11-28 22:45: ditinjau ulang dari montase _norm (AI Claude), disetujui Seno; Volcano -> Hurricane (isi sama dengan 10a; beda hanya post grayscale)"
   },
   "44": {
     "kelas": "Hurricane",
@@ -361,20 +368,22 @@
   },
   "48": {
     "kelas": "Hurricane",
-    "yakin": "ragu",
+    "yakin": "yakin",
     "alasan": "Hutan rawa dan tepi danau dekat permukiman; di post kanopi menipis dan kelabu serta badan air lebih luas dan gelap.",
     "penilai": [
       "AI (Claude)"
     ],
-    "sub_id": "39b"
+    "sub_id": "39b",
+    "revisi": "revisi 2026-11-28 22:45: ditinjau ulang dari montase _norm (AI Claude), disetujui Seno; ragu -> yakin"
   },
   "49": {
     "kelas": "Hurricane",
-    "yakin": "ragu",
+    "yakin": "yakin",
     "alasan": "Hutan dan permukiman pinggiran; di post pohon tumbang atau menipis dan kerusakan tersebar di sekitar rumah.",
     "penilai": [
       "AI (Claude)"
     ],
-    "sub_id": "39c"
+    "sub_id": "39c",
+    "revisi": "revisi 2026-11-28 22:45: ditinjau ulang dari montase _norm (AI Claude), disetujui Seno; ragu -> yakin"
   }
 }

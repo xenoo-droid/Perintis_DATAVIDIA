@@ -1,0 +1,51 @@
+﻿event_id,n,montase,kelas_final,yakin,alasan
+0,50,montase/cluster_00.jpg,Volcano,yakin,"Pada sebagian besar pasangan, perbukitan bervegetasi dan permukiman kecil di pre tertutup lapisan kelabu seperti abu dan kabut tebal yang merata di post."
+1,36,montase/cluster_01.jpg,Hurricane,yakin,"Padang rumput dan pepohonan pedalaman di pre tergenang air gelap secara luas di post, jauh dari garis pantai, tanpa tanda hangus."
+2,46,montase/cluster_02.jpg,campur,yakin,Montase terbagi antara permukiman pesisir yang rata menjadi puing di post dan permukiman tepi danau berdermaga yang relatif utuh.
+2a,24,montase/cluster_2a.jpg,Hurricane,yakin,"Permukiman tepi kanal dan teluk berdermaga; di post bangunan relatif utuh, badan air lebih gelap dan sebagian vegetasi tepi air rusak tersebar."
+2b,22,montase/cluster_2b.jpg,Tsunami,yakin,Permukiman pesisir padat; di post bangunan di dekat garis pantai rata menjadi puing berwarna terang dan garis pantai terkikis.
+3,36,montase/cluster_03.jpg,Volcano,ragu,[revisi2] Permukiman dan vila di lahan berbatu gelap pada pre; di post bangunan dan jalan tertutup permukaan kasar berlobus seperti aliran lava.
+4,34,montase/cluster_04.jpg,Tsunami,yakin,"Kawasan pesisir dengan garis pantai berubah, air keruh masuk ke daratan, dan bangunan tepi pantai hilang tersapu di post."
+5,39,montase/cluster_05.jpg,Earthquake,yakin,Kawasan kota padat dengan blok bangunan beton rapat; di post sebagian bangunan menjadi puing tersebar tanpa satu pusat kerusakan.
+6,50,montase/cluster_06.jpg,Volcano,ragu,[revisi2] Lahan pertanian dan padang rumput pada pre; di post sebagian lahan tertutup permukaan kasar bergelombang dengan tepi berlobus seperti aliran lava.
+7,63,montase/cluster_07.jpg,Hurricane,yakin,"Permukiman berhutan lebat; di post kanopi pohon menipis dan berubah kecokelatan, disertai kerusakan atap yang tersebar merata."
+8,35,montase/cluster_08.jpg,Tsunami,ragu,"Hampir semua pasangan didominasi permukaan air keruh yang menutupi daratan di post, tanpa permukiman atau hutan yang tersisa terlihat."
+9,47,montase/cluster_09.jpg,Fire,yakin,"Lereng kering bersemak di pre; di post semak menghilang dan lereng menjadi gelap kelabu, batas perubahan cukup tegas."
+10,66,montase/cluster_10.jpg,campur,yakin,"Permukiman tropis berpepohonan dengan kondisi post yang beragam: sebagian utuh, sebagian pesisir tergenang, sebagian area hutan berasap."
+10a,36,montase/cluster_10a.jpg,Hurricane,ragu,"Permukiman tropis berpepohonan lebat; di post kanopi menipis dan terganggu tersebar, tanpa genangan pesisir atau bekas hangus yang jelas."
+10b,30,montase/cluster_10b.jpg,Hurricane,ragu,"[revisi] Isi sama dengan 10a (permukiman tropis berpohon lebat); kesan kelabu di post berasal dari citra grayscale, bukan material vulkanik."
+11,64,montase/cluster_11.jpg,Tsunami,ragu,Kawasan rawa dan laguna pesisir; di post genangan air meluas ke daratan dan batas daratan-air bergeser.
+12,56,montase/cluster_12.jpg,Fire,ragu,"Lahan pertanian datar; di post sejumlah petak berubah gelap dan gersang dibanding pre, perubahan pada sebagian pasangan samar."
+13,49,montase/cluster_13.jpg,Fire,ragu,"Sabana dan semak; di post muncul bercak gelap dan permukaan gersang di beberapa pasangan, banyak citra terganggu scanline dan grayscale."
+14,72,montase/cluster_14.jpg,Earthquake,yakin,Kawasan apartemen bertingkat yang padat; di post beberapa gedung runtuh secara lokal sementara pepohonan tetap utuh.
+15,83,montase/cluster_15.jpg,Fire,yakin,"Perbukitan kebun dan desa; di post vegetasi lereng menjadi gelap kelabu hangus dengan batas tegas, jalan dan rumah masih terlihat."
+16,69,montase/cluster_16.jpg,Hurricane,ragu,"Mosaik sawah, kebun, dan sungai tropis; di post sebagian lahan tergenang dan vegetasi menipis secara tersebar."
+17,51,montase/cluster_17.jpg,Fire,ragu,Ladang kering dan pertanian terbuka; di post beberapa petak dan jalur berubah gelap seperti bekas terbakar.
+18,85,montase/cluster_18.jpg,Hurricane,yakin,"Kanopi hutan tropis lebat; di post muncul bercak kecokelatan dan kemerahan yang tersebar luas, menandakan daun rontok dan pohon rusak."
+19,74,montase/cluster_19.jpg,Fire,yakin,"Permukiman yang rumahnya di post tinggal fondasi abu putih-kelabu dan lahan sekitarnya menghitam, sementara jaringan jalan tetap terlihat jelas."
+20,60,montase/cluster_20.jpg,Fire,yakin,"Permukiman grid padat berpepohonan; di beberapa pasangan post blok rumah berubah kelabu berabu dan pohon hilang, sebagian lain tampak utuh."
+21,86,montase/cluster_21.jpg,Hurricane,yakin,Hutan perbukitan tropis; di post pohon tumbang atau rontok dan kanopi berubah kecokelatan secara meluas tanpa pola hangus pekat.
+22,67,montase/cluster_22.jpg,Fire,ragu,Petak ladang dan perkebunan; di post beberapa petak berubah kelabu gersang atau gelap dibanding pre.
+23,101,montase/cluster_23.jpg,Hurricane,yakin,"Permukiman berkanal dan kolam; di post vegetasi kecokelatan, puing, dan atap rusak tersebar merata serta badan air lebih gelap."
+24,96,montase/cluster_24.jpg,Hurricane,ragu,"Mosaik kebun dan hutan tropis berbukit; di post vegetasi menipis dan rusak tersebar, perubahan pada sebagian pasangan samar."
+25,67,montase/cluster_25.jpg,Earthquake,ragu,"Kota padat beratap merah dengan jalan layang; di post sebagian kecil bangunan tampak menjadi puing, tanpa genangan atau hangus."
+26,81,montase/cluster_26.jpg,Fire,yakin,"Permukiman di lereng bersemak; di post lereng sekitar rumah menghitam dan kelabu hangus dengan batas tegas, jalan tetap terlihat."
+27,88,montase/cluster_27.jpg,Earthquake,ragu,"Kota padat beratap seng; di post sebagian blok bangunan rata menjadi puing tersebar, tanpa genangan luas atau hangus."
+28,89,montase/cluster_28.jpg,Fire,yakin,Tutupan vegetasi hijau pada perbukitan di pre berubah menjadi lahan gelap berabu dan gersang di post dengan batas tegas.
+29,95,montase/cluster_29.jpg,campur,yakin,"Lahan pertanian dan permukiman pedesaan dengan kondisi post yang bertolak belakang: sebagian utuh, sebagian tergenang gelap, sebagian berubah kelabu."
+29a,33,montase/cluster_29a.jpg,Hurricane,ragu,Desa dan sawah datar; di post vegetasi sekitar rumah rusak kecokelatan dan puing tersebar di seluruh permukiman.
+29b,32,montase/cluster_29b.jpg,Hurricane,ragu,"Lahan sawah dan kebun dengan desa; di post sebagian petak tergenang gelap dan vegetasi rusak tersebar, banyak pasangan berubah samar."
+29c,30,montase/cluster_29c.jpg,Earthquake,ragu,Desa padat beratap datar di antara ladang kering bergaris pohon; di post sebagian bangunan rusak tanpa genangan atau hangus.
+30,73,montase/cluster_30.jpg,Earthquake,ragu,"Permukiman kota padat beratap merah berpepohonan; perubahan di post samar, diputuskan dari konteks kota padat tanpa genangan atau hangus."
+31,76,montase/cluster_31.jpg,Earthquake,yakin,Permukiman kota padat dengan blok bangunan rapat; di post terlihat puing dan bangunan rusak tersebar tanpa satu pusat.
+32,100,montase/cluster_32.jpg,Fire,ragu,Desa dan lahan kering; di post lahan di sekitar bangunan berubah gelap kecokelatan secara luas dengan batas cukup tegas.
+33,127,montase/cluster_33.jpg,Earthquake,ragu,"Kawasan kota dan industri dengan jalan raya; di post beberapa bangunan tampak rusak atau menjadi lahan puing, tanpa genangan atau hangus."
+34,114,montase/cluster_34.jpg,Hurricane,yakin,Permukiman berkanal dan kolam retensi; di post vegetasi dan atap rusak tersebar serta badan air lebih gelap dan meluas.
+35,125,montase/cluster_35.jpg,Hurricane,ragu,Hutan dan semak tropis dengan ladang; di post vegetasi rontok kemerahan dan beberapa pohon gundul secara tersebar.
+36,135,montase/cluster_36.jpg,Fire,yakin,Vegetasi dan lahan di pre berubah menjadi area hangus gelap dengan garis batas kebakaran yang jelas di post.
+37,157,montase/cluster_37.jpg,Hurricane,yakin,Permukiman grid bervegetasi; di post atap rusak dan puing tersebar merata di seluruh kawasan.
+38,201,montase/cluster_38.jpg,Hurricane,yakin,Permukiman bervegetasi lebat; di post vegetasi menipis dan kecokelatan meluas serta kerusakan struktur tersebar.
+39,137,montase/cluster_39.jpg,campur,yakin,"Hutan lebat, jalan pedesaan, dan sungai minim bangunan dengan kondisi post yang sangat beragam tanpa satu pola kerusakan yang seragam."
+39a,64,montase/cluster_39a.jpg,Hurricane,ragu,Hutan lebat dan semak; di post kanopi rontok dan berubah kecokelatan-kemerahan secara tersebar tanpa batas hangus tegas.
+39b,43,montase/cluster_39b.jpg,Hurricane,yakin,Hutan rawa dan tepi danau dekat permukiman; di post kanopi menipis dan kelabu serta badan air lebih luas dan gelap.
+39c,30,montase/cluster_39c.jpg,Hurricane,yakin,Hutan dan permukiman pinggiran; di post pohon tumbang atau menipis dan kerusakan tersebar di sekitar rumah.

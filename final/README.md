@@ -1,6 +1,6 @@
 # Task 2 — Tim Perintis (Datavidia 11.0)
 
-Klasifikasi fenomena dari pasangan citra satelit `pre` / `post` ke 6 kelas: `Earthquake`, `Explosion`, `Fire`, `Hurricane`, `Tsunami`, `Volcano`. Tidak ada label per foto. Cluster dibentuk model, lalu nama kelas ditetapkan **per cluster** lewat pengamatan montase oleh AI (Claude), tanpa tinjauan tim. Kamus nama cluster ditulis eksplisit di `01_model.ipynb` (bagian 2). Nama cluster tidak disetel dari skor leaderboard. Prediksi akhir dihasilkan classifier.
+Klasifikasi fenomena dari pasangan citra satelit `pre` / `post` ke 6 kelas: `Earthquake`, `Explosion`, `Fire`, `Hurricane`, `Tsunami`, `Volcano`. Tidak ada label per foto. Cluster dibentuk model, lalu nama kelas ditetapkan **per cluster** lewat pengamatan montase oleh AI (Claude), kemudian direvisi dari peninjauan ulang montase dan disetujui Seno (`fahmi/v3_revisi2`). Kamus nama cluster ditulis eksplisit di `01_model.ipynb` (bagian 2). Nama cluster tidak disetel dari skor leaderboard. Prediksi akhir dihasilkan classifier.
 
 ## Isi folder
 
@@ -8,7 +8,7 @@ Klasifikasi fenomena dari pasangan citra satelit `pre` / `post` ke 6 kelas: `Ear
 final/
 ├── 01_model.ipynb        # citra → fitur → muat cluster B + kamus nama → label spreading → classifier → model/
 ├── 02_submission.ipynb   # citra → fitur → muat model/ → submission/submission_final.csv (tanpa .fit())
-├── events.parquet        # hasil B (Fahmi v3-7): Id, event_id, kedekatan, kelas_cluster, yakin_cluster
+├── events.parquet        # hasil B (Fahmi v3-7 + revisi): Id, event_id, kedekatan, kelas_cluster, yakin_cluster
 ├── sub_events.parquet    # pemetaan foto -> induk/sub-cluster (untuk cek hash)
 ├── cluster_names.json    # kelas, yakin, alasan, penilai per cluster
 ├── pca.joblib, mean_x.npy  # ruang Z milik B (dimuat, tidak di-fit ulang)
@@ -33,12 +33,12 @@ Ekstraksi DINOv2-L (FP32, TTA 8 arah, 6.360 gambar) butuh GPU. Dijalankan di Kag
 | Bagian | Isi |
 |---|---|
 | A — Pengolah gambar (Hafizh) | Preprocessing (mask area hitam, shared crop, normalisasi warna selektif), embedding DINOv2-L (`vit_large_patch14_dinov2.lvd142m`, Apache-2.0, 308 px) dengan TTA D4 8 arah, FP32 deterministik. |
-| B — Cluster & nama kelas (Fahmi) | Embedding pre+post → L2 per blok → PCA 64 → dibulatkan 4 desimal → Spectral Clustering K=40 (kNN 15, seed 42). 4 cluster campur (2, 10, 29, 39) dipecah dengan Spectral Clustering menjadi sub-cluster 40–49, total 46 cluster. Nama kelas per cluster dari pengamatan montase oleh AI (Claude), tanpa tinjauan tim. |
-| C — Model akhir (Seno) | Seed = foto dengan kedekatan ke pusat cluster ≥ 0,5 → label spreading (kNN 15, alpha 0,2) → StandardScaler → PCA 128 → Logistic Regression (`class_weight="balanced"`, C=1,0), bobot sampel = kedekatan × (1,0 yakin / 0,5 ragu). Fitur hanya embedding per foto, tanpa `event_id`. |
+| B — Cluster & nama kelas (Fahmi) | Embedding pre+post → L2 per blok → PCA 64 → dibulatkan 4 desimal → Spectral Clustering K=40 (kNN 15, seed 42). 4 cluster campur (2, 10, 29, 39) dipecah dengan Spectral Clustering menjadi sub-cluster 40–49, total 46 cluster. Nama kelas per cluster dari pengamatan montase oleh AI (Claude). Revisi: 5 cluster ragu → yakin (9, 20, 2a, 39b, 39c); sub-cluster 10b Volcano → Hurricane karena kesan kelabu di post berasal dari citra grayscale. |
+| C — Model akhir (Seno) | Seed = foto dengan kedekatan ke pusat cluster ≥ 0,5 di cluster bernama → label spreading (kNN 15, alpha 0,2) → StandardScaler → PCA 128 → Logistic Regression (`class_weight="balanced"`, C=1,0), bobot sampel = kedekatan × (1,0 yakin / 0,5 ragu / 0 tanpa nama). Fitur hanya embedding per foto, tanpa `event_id`. |
 
 Seed 42 di semua langkah. Urutan Id mengikuti `sample_submission.csv`.
 
-**Keterbatasan:** tidak ada cluster yang dinamai `Explosion`, jadi kelas itu tidak pernah diprediksi (Macro F1 maksimal ±0,83). 27 dari 46 cluster berstatus `ragu`.
+**Keterbatasan:** tidak ada cluster yang dinamai `Explosion`, jadi kelas itu tidak pernah diprediksi (Macro F1 maksimal ±0,83). 22 dari 46 cluster berstatus `ragu`.
 
 ## Checklist sebelum dikumpulkan (hapus bagian ini setelah selesai)
 
