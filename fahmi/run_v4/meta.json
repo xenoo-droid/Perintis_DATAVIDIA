@@ -1,0 +1,26 @@
+{
+  "versi": "run_v4",
+  "oleh": "Fahmi",
+  "label": "v4_perubahan/lembar_usulan_claude_v2.csv",
+  "clustering": "v4_perubahan",
+  "fitur_blok": [
+    "color_pre",
+    "color_post",
+    "changed"
+  ],
+  "n_seed": 1208,
+  "foto_cluster_kosong": 779,
+  "cv_vs_label_latih": {
+    "acc": 0.8677,
+    "macro_f1": 0.8487
+  },
+  "distribusi_prediksi": {
+    "Earthquake": 1101,
+    "Explosion": 104,
+    "Fire": 327,
+    "Hurricane": 1401,
+    "Tsunami": 90,
+    "Volcano": 157
+  },
+  "sama_run7": 0.5896
+}
