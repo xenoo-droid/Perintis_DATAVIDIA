@@ -1,0 +1,41 @@
+﻿event_id,n,montase,kelas_final,yakin,alasan
+0,50,montase/cluster_00.jpg,Volcano,yakin,"Wilayah perbukitan bervegetasi tropis dan permukiman kecil pada citra post tertutup kabut tebal, asap vulkanik, serta lapisan abu (khas erupsi Guatemala)."
+1,36,montase/cluster_01.jpg,Hurricane,yakin,Lahan hijau terbuka dan pepohonan pada citra post tergenang air gelap secara luas akibat banjir badai (khas Hurricane Florence/Harvey).
+2,46,montase/cluster_02.jpg,campur,yakin,"Cluster ini menggabungkan dua pola bencana berbeda hanya berdasarkan kemiripan area perairan dan pesisir, yaitu permukiman pesisir tropis yang hancur rata menjadi puing (khas tsunami) bercampur dengan permukiman suburban berdermaga kayu serta danau pedalaman yang relatif utuh (khas hurikan)."
+3,36,montase/cluster_03.jpg,,,
+4,34,montase/cluster_04.jpg,Tsunami,yakin,"Kawasan pesisir dengan perubahan garis pantai, air laut keruh, serta permukiman dan fasilitas tepi pantai yang tersapu (khas Palu/Sunda Tsunami)."
+5,39,montase/cluster_05.jpg,Earthquake,yakin,Kawasan perkotaan padat dengan blok bangunan rapat menunjukkan pola kerusakan struktur dan reruntuhan membentang luas (khas Mexico City Earthquake).
+6,50,montase/cluster_06.jpg,,,
+7,63,montase/cluster_07.jpg,Hurricane,yakin,Kawasan permukiman suburban berhutan lebat menunjukkan kerontokan daun/vegetasi (berubah cokelat) dan kerusakan struktur tersebar (khas Hurricane Michael/Florence).
+8,35,montase/cluster_08.jpg,Tsunami,yakin,semua pasangan terlihat seperti tergenang air tidak ada pemukiman ataupun hutan
+9,47,montase/cluster_09.jpg,,,
+10,66,montase/cluster_10.jpg,campur,yakin,"Cluster ini dikelompokkan berdasarkan kemiripan tutupan lahan permukiman tropis berpepohonan lebat dengan variasi sensor (grayscale dan RGB) serta pola post yang tidak seragam, mulai dari area tetap utuh, kawasan pesisir pantai, blok perkotaan padat, hingga area hutan berasap dengan nyala api."
+11,64,montase/cluster_11.jpg,Tsunami,yakin,seluruh pasangan foto pada empat baris teratas memperlihatkan gelombang air laut yang menggenangi daratan pesisir
+12,56,montase/cluster_12.jpg,,,
+13,49,montase/cluster_13.jpg,,,
+14,72,montase/cluster_14.jpg,Earthquake,yakin,empat baris teratas memperlihatkan kawasan apartemen perkotaan padat dengan keruntuhan lokal pada beberapa gedung bertingkat
+15,83,montase/cluster_15.jpg,,,
+16,69,montase/cluster_16.jpg,,,
+17,51,montase/cluster_17.jpg,,,
+18,85,montase/cluster_18.jpg,,,
+19,74,montase/cluster_19.jpg,Fire,yakin,"Hampir seluruh pasangan citra memperlihatkan permukiman suburban (termasuk blok cul-de-sac dan persimpangan jalan raya) yang rumahnya habis terbakar menyisakan fondasi abu kelabu-putih serta lahan hangus menghitam dengan kepulan asap, sementara jaringan jalan aspal tetap terlihat jelas tidak tertimbun."
+20,60,montase/cluster_20.jpg,Earthquake,ragu,"Seluruh pasangan citra menampilkan permukiman grid padat berpepohonan yang tidak menunjukkan tanda genangan banjir, kebakaran, abu vulkanik, maupun garis pantai, sehingga paling mengarah ke gempa bumi meskipun sebagian besar bangunan dan vegetasi tampak masih utuh pada resolusi montase."
+21,86,montase/cluster_21.jpg,Hurricane,yakin,Kawasan hutan dan perbukitan tropis bervegetasi lebat mengalami kerontokan vegetasi meluas dan berubah kecokelatan tanpa pola hangus pekat.
+22,67,montase/cluster_22.jpg,Fire,yakin,Petak perkebunan dan lahan pertanian rural yang sebagian berubah abu-abu/hangus dan gersang pada citra post (khas Portugal Wildfire/Pinery Bushfire).
+23,101,montase/cluster_23.jpg,Hurricane,yakin,Permukiman suburban khas AS dengan kanal dan kolam retensi menunjukkan kerusakan vegetasi dan atap tersebar serta badan air lebih gelap (khas Hurricane Harvey/Michael).
+24,96,montase/cluster_24.jpg,,,
+25,67,montase/cluster_25.jpg,,,
+26,81,montase/cluster_26.jpg,Volcano,yakin,terlihat beberapa lapisan hitam di beberapa foto dan beberapa lainnya seperti tertutupi abu vulkanik
+27,88,montase/cluster_27.jpg,,,
+28,89,montase/cluster_28.jpg,Fire,yakin,tutupan vegetasi hijau pada perbukitan di foto pre berubah total menjadi lahan hangus yang gelap berabu dan gersang pada foto post
+29,95,montase/cluster_29.jpg,campur,yakin,"Cluster ini dikelompokkan berdasarkan kemiripan tutupan lahan pertanian pedesaan dan permukiman jarang dari beragam wilayah serta sensor (RGB dan grayscale) dengan kondisi post yang saling bertolak belakang, mulai dari lahan tetap hijau utuh, perubahan musiman kering, area gelap/basah, hingga lembah yang berubah abu-abu kelabu menyeluruh."
+30,73,montase/cluster_30.jpg,,,
+31,76,montase/cluster_31.jpg,Earthquake,yakin,Kawasan permukiman perkotaan padat dengan blok bangunan rapat memperlihatkan pola kerusakan struktur dan reruntuhan yang membentang luas.
+32,100,montase/cluster_32.jpg,Fire,yakin,ada bangunan pemukiman yang terbakar habis dan vegetasi sekitarnya menjadi hangus
+33,127,montase/cluster_33.jpg,,,
+34,114,montase/cluster_34.jpg,Hurricane,yakin,Permukiman suburban khas AS dengan kanal dan kolam retensi menunjukkan kerusakan vegetasi serta atap secara tersebar dengan badan air yang lebih gelap.
+35,125,montase/cluster_35.jpg,,,
+36,135,montase/cluster_36.jpg,Fire,yakin,vegetasi berubah menjadi hangus dengan garis batas kebakaran yang jelas
+37,157,montase/cluster_37.jpg,,,
+38,201,montase/cluster_38.jpg,Hurricane,yakin,Area permukiman bervegetasi lebat mengalami kerontokan dan penipisan vegetasi meluas (berubah kecokelatan) serta kerusakan struktur tersebar.
+39,137,montase/cluster_39.jpg,campur,yakin,"Cluster ini jelas dikelompokkan berdasarkan kemiripan tutupan lahan hutan lebat, jalan pedesaan, dan sungai/kanal minim bangunan dengan variasi sensor serta kondisi post yang sangat beragam (hutan tetap hijau utuh, sungai keruh, kanal pesisir, pergeseran warna kanopi, hingga awan tebal) tanpa satu pola kerusakan bencana yang seragam."
